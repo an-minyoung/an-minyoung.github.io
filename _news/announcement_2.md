@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
+title: Fall quarter begins!
 date: 2019-09-24
 inline: false
 ---

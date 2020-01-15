@@ -8,7 +8,7 @@ profile:
   align: right
   image: 04.png
   address: >
-    <p> * * * * Chicago, IL * * * * </p>
+    <p> * * * Chicago, IL * * * </p>
 
 news: true
 social: true

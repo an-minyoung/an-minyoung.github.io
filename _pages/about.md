@@ -23,7 +23,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-My name is Alex Hay. I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics and learning new ways to mimic human ability.
+<!-- My name is Alex Hay. I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics and learning new ways to mimic human ability.
 
 #### Pearce Services - Design Engineer...
 <small>2014 - 2019</small>
@@ -40,4 +40,4 @@ stuff
 
 stuff
 
-test
+test -->

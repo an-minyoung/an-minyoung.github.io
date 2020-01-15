@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Alex Hay | Portfolio
-email: alexanderhay2020@u.northwestern.edu
+name: Your Name
+email: you@example.com
 description: > # this means to ignore newlines until "url:"
-  Portfolio for Alex Hay | MS in Robotics
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -37,15 +37,15 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  Email, call, or let's set up a meeting
+  You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Alex Hay | Portfolio
-blog_description: A portfolio and resume site for Alex
+blog_name: al-folio
+blog_description: a simple whitespace theme for academics
 
 # Pagination
 paginate: 4

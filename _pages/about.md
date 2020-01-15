@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Alex</strong> Hay
+title: Alex Hay
 description:
 <!-- <a href="">Affiliations</a>. Address. Contacts. Moto. Etc. -->
 

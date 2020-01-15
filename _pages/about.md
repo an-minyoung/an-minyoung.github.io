@@ -2,15 +2,16 @@
 layout: about
 permalink: /
 title: <strong>Alex Hay</strong>
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: MS Student of Robotics | Northwestern University
+<!-- <a href="">Affiliations</a>. Address. Contacts. Moto. Etc. -->
 
 profile:
   align: right
   image: 04.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <!-- <p>555 your office number</p>
+    <p>123 your address street</p> -->
+    <p>Chicago, IL</p>
 
 news: true
 social: true

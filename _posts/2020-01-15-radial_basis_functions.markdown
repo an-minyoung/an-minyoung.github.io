@@ -31,7 +31,7 @@ $$
 By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
 
 $$
-\sum_{j=1}^{m}  w_j h_j(x) \mu \sigma
+\sum_{j=1}^{m}  w_j h_j(x)
 $$
 
 * *h(x)* is the RBF
@@ -40,4 +40,11 @@ $$
 
 In this exercise we have the following dataset:
 * *x* is drawn from a uniform random distribution, from *-10 < n < 10; n=1,000*
-* *y = 2x + e*;  e is a normally distributed noise vector, \mu = 1, \sigma = 0
+* *y = 2x + e*;  e is a normally distributed noise vector, μ = 1, σ = 0
+* Use 48 RBFs, between -12 and 12 @ every 0.5 along the x axis
+
+<div class="img_row">
+    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_1.png">
+    <img class="col two" src="{{ site.baseurl }}/assets/img/Figure_2.png">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/Figure_3.png">
+</div>

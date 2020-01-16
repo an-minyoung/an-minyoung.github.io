@@ -61,6 +61,7 @@ In this exercise we have the following dataset:
 </div>
 <div class="col one first caption">
     Function approximation
+    Error analysis
 </div>
 <div class="col one caption">
     Error analysis

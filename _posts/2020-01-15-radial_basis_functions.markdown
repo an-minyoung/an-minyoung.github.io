@@ -4,7 +4,9 @@ title:  Function Approximation Using Radial Basis Functions
 date:   2020-01-15
 description: Using radial basis functions to approximate a linear mapping
 ---
-Inside the retina are cone cells, photosensitive cells that differentiate color. Humans have 3 different types of cones; (S)mall, (M)edium, and (L)arge, corresponding to the length of the wavelength that excites it. The excitement amplitudes of each type of cone is perceived to us as color, and [the color perceived is the sum of each cone response](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_5.gif)
+
+### Color Specific Photoreceptors - Cones
+Inside the retina are cone cells, photosensitive cells that differentiate color. Humans have 3 different types of cones; (S)mall, (M)edium, and (L)arge, corresponding to the length of the wavelength that excites it. The excitement amplitudes of each type of cone is perceived to us as color, and [the color perceived is the sum of each cone response](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_5.gif).
 
 <div class="img_row">
     <img class="col three" src="{{ site.baseurl }}/assets/img/figure_5.gif">
@@ -12,3 +14,12 @@ Inside the retina are cone cells, photosensitive cells that differentiate color.
 <div class="col three caption">
     The color perceived is the sum of each cone response
 </div>
+
+### Radial Basis Functions
+A Radial Basis Function (RBFs) is a function whose value depends the distance between a query point and a fixed point.
+
+$$
+f(x)=h(||x-c||)
+$$
+
+By summing together multiple RBFs, you can approximate a value given a query point.

@@ -38,31 +38,32 @@ $$
 * *w* is the weight for the RBF
 * *j* in the index for *m* RBFs
 
+The weight vector can be found using linear regression, ultimately leading to this equation:
+
+$$
+ \overrightarrow{w} = (H^TH)^{-1}H^T\overrightarrow{y}
+$$
+
 In this exercise we have the following dataset:
 * *x* is drawn from a uniform random distribution, from *-10 < n < 10; n=1,000*
 * *y = 2x + e*;  e is a normally distributed noise vector, μ = 1, σ = 0
 * Use 48 RBFs, between -12 and 12 @ every 0.5 along the x axis
 
+[Fig. 1](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_1.png)] - Dataset visualized
+
+[Fig. 2](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_2.png)] - 48 RBFs plotted
+
+[Fig. 3](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_3.png)] - Function approximation
+
+[Fig. 4](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_4.png)] - Error analysis
+
+
 <div class="img_row">
     <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_1.png">
     <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_2.png">
 </div>
-<div class="col one first caption">
-    Dataset visualized
-</div>
-<div class="col one caption">
-    48 RBFs plotted
-</div>
-
 
 <div class="img_row">
     <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_3.png">
     <img class="col one " src="{{ site.baseurl }}/assets/img/Figure_4.png">
-</div>
-<div class="col one first caption">
-    Function approximation
-    Error analysis
-</div>
-<div class="col one caption">
-    Error analysis
 </div>

@@ -16,10 +16,18 @@ Inside the retina are cone cells, photosensitive cells that differentiate color.
 </div>
 
 ### Radial Basis Functions
-A Radial Basis Function (RBFs) is a function whose value depends the distance between a query point and a fixed point.
+A Radial Basis Function (RBFs) is a function whose value depends the distance between a query point and a fixed point. For this exercise I used the Gaussian Function:
 
-$$
-f(x)=h(||x-c||)
-$$
+<center>$$
+h(x)=exp(-\frac{(x-c^2)}{r^2})
+$$</center>
 
-By summing together multiple RBFs, you can approximate a value given a query point.
+* x is the query point
+* c is some fixed point, 0 if distance is measured from origin
+* h(x) is the RBF
+
+By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function.
+
+<center>$$
+\sum_{j=1}^{m}  w_j h_j(x)
+$$</center>

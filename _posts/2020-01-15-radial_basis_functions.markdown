@@ -44,7 +44,22 @@ In this exercise we have the following dataset:
 * Use 48 RBFs, between -12 and 12 @ every 0.5 along the x axis
 
 <div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_1.png">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_2.png">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_3.png">
+    <img class="col two" src="{{ site.baseurl }}/assets/img/Figure_1.png">
+</div>
+<div class="col two caption">
+    Dataset visualized
+</div>
+
+<div class="img_row">
+    <img class="col two" src="{{ site.baseurl }}/assets/img/Figure_2.png">
+</div>
+<div class="col two caption">
+    48 RBFs plotted
+</div>
+
+<div class="img_row">
+    <img class="col two" src="{{ site.baseurl }}/assets/img/Figure_3.png">
+</div>
+<div class="col two caption">
+    Funcition approximation
 </div>

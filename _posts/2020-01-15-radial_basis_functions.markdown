@@ -31,7 +31,7 @@ $$
 By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
 
 $$
-\sum_{j=1}^{m}  w_j h_j(x)
+f(x) = \sum_{j=1}^{m}  w_j h_j(x)
 $$
 
 * *h(x)* is the RBF
@@ -44,18 +44,21 @@ $$
  \overrightarrow{w} = (H^TH)^{-1}H^T\overrightarrow{y}
 $$
 
+* *H* is the *design matrix* of *h(x)*, or a *nxm* matrix of *n* samples and *m* RBFs
+* *y* is f(x)
+
 In this exercise we have the following dataset:
 * *x* is drawn from a uniform random distribution, from *-10 < n < 10; n=1,000*
 * *y = 2x + e*;  e is a normally distributed noise vector, μ = 1, σ = 0
 * Use 48 RBFs, between -12 and 12 @ every 0.5 along the x axis
 
-[Fig. 1](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_1.png)] - Dataset visualized
+[Fig. 1](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_1.png) - Dataset visualized
 
-[Fig. 2](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_2.png)] - 48 RBFs plotted
+[Fig. 2](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_2.png) - 48 RBFs plotted
 
-[Fig. 3](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_3.png)] - Function approximation
+[Fig. 3](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_3.png) - Function approximation
 
-[Fig. 4](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_4.png)] - Error analysis
+[Fig. 4](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_4.png) - Error analysis
 
 
 <div class="img_row">
@@ -67,3 +70,5 @@ In this exercise we have the following dataset:
     <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_3.png">
     <img class="col one " src="{{ site.baseurl }}/assets/img/Figure_4.png">
 </div>
+
+Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level, and it's the network of these cone cells that provide the stimulus we interpret as color. 

@@ -44,7 +44,7 @@ In this exercise we have the following dataset:
 * Use 48 RBFs, between -12 and 12 @ every 0.5 along the x axis
 
 <div class="img_row">
-    <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_1.png">
+    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_1.png">
     <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_2.png">
-    <img class="col one last" src="{{ site.baseurl }}/assets/img/Figure_3.png">
+    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_3.png">
 </div>

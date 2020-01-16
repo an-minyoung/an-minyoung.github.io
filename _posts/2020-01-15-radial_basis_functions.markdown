@@ -28,10 +28,10 @@ $$
 * *c* is some fixed point, 0 if distance is measured from origin
 * *h(x)* is the RBF
 
-By using multiple RBFs you can approximate a function. $$ E = mc^2 $$ By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
+By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
 
 $$
-\sum_{j=1}^{m}  w_j h_j(x)
+\sum_{j=1}^{m}  w_j h_j(x) \mu \sigma
 $$
 
 * *h(x)* is the RBF
@@ -39,5 +39,5 @@ $$
 * *j* in the index for *m* RBFs
 
 In this exercise we have the following dataset:
-*x* is drawn from a uniform random distribution, from '$$ -10 < n < 10; n=1,000 $$'
-'$$ y = 2x + e $$'; e is a normally distributed noise vector, '$$ \mu = 1, \sigma = 0 $$'
+* *x* is drawn from a uniform random distribution, from *-10 < n < 10; n=1,000*
+* *y = 2x + e*;  e is a normally distributed noise vector, \mu = 1, \sigma = 0

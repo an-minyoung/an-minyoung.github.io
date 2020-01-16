@@ -12,3 +12,6 @@ Inside the retina are cone cells, photosensitive cells that differentiate color.
 <div class="col three caption">
     The color perceived is the sum of each cone response
 </div>
+
+(link pic)[https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_5.gif]
+(https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_5.gif)[https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_5.gif]

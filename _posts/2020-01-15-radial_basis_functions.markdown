@@ -39,5 +39,5 @@ $$
 * *j* in the index for *m* RBFs
 
 In this exercise we have the following dataset:
-* *x* is drawn from a uniform random distribution, from '$$ -10 < n < 10; n=1,000 $$'
-* '$$ y = 2x + e $$'; e is a normally distributed noise vector, '$$ \mu = 1, \sigma = 0 $$'
+*x* is drawn from a uniform random distribution, from '$$ -10 < n < 10; n=1,000 $$'
+'$$ y = 2x + e $$'; e is a normally distributed noise vector, '$$ \mu = 1, \sigma = 0 $$'

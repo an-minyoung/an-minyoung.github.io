@@ -28,7 +28,7 @@ $$
 * *c* is some fixed point, 0 if distance is measured from origin
 * *h(x)* is the RBF
 
-By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
+By using multiple RBFs you can approximate a function. $$ E = mc^2 $$ By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
 
 $$
 \sum_{j=1}^{m}  w_j h_j(x)

@@ -9,11 +9,10 @@ title: resume
 
 * Coding: Python, C, C++
 * Design: AutoCAD, Solidworks, Inventor, 3D-Printing
-* Programs: NDS, Windows, Linux
+* Programs: Linux, Windows, NDS
 
 ### Experience
 #### Pearce Services - Design Engineer...
-<!-- <small>2014 - 2019</small> -->
 2014 - 2019
 
 My main responsibility was designing infrastructure plans for fiber and cable construction projects. Foresight was critical as anything not accounted for would delay the project. I coordinated with the lead engineer, field engineer, and other contractors to move the project forward in a timely but comprehensive manner.
@@ -21,7 +20,9 @@ My main responsibility was designing infrastructure plans for fiber and cable co
 #### Drive Spotter - Product Engineer...
 2015 - 2016
 
-stuff
+At Drive Spotter I developed a working prototype using computer vision and machine learning tools.
+Because the company was in its infancy I acted as many roles, addressing CEOs, investors, and
+vendors. A smaller aspect of my role was conducting prior art research and assisting in writing, editing, and revising patents and proposals.
 
 #### Rehabilitation Institute of Chicago - Research Intern...
 2014

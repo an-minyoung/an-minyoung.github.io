@@ -36,7 +36,7 @@ $$
 
 * *h(x)* is the RBF
 * *w* is the weight for the RBF
-* *j* in the index for *m* RBFs
+* *j* in the index for *m* samples of x
 
 The weight vector can be found using linear regression, ultimately leading to this equation:
 
@@ -45,7 +45,7 @@ $$
 $$
 
 * *H* is the *design matrix* of *h(x)*, or a *nxm* matrix of *n* samples and *m* RBFs
-* *y* is f(x)
+* *y* is f(x) vectorized
 
 In this exercise we have the following dataset:
 * *x* is drawn from a uniform random distribution, from *-10 < n < 10; n=1,000*
@@ -71,4 +71,4 @@ In this exercise we have the following dataset:
     <img class="col one " src="{{ site.baseurl }}/assets/img/Figure_4.png">
 </div>
 
-Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level, and it's the network of these cone cells that provide the stimulus we interpret as color. 
+Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level, and it's the network of these cone cells that provide the stimulus we interpret as color. Techniques like this are already in use in glasses for correcting colorblindness.

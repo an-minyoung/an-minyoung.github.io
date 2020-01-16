@@ -44,8 +44,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Alex Hay | Portfolio
-blog_description: A portfolio and resume site for Alex
+blog_name: etc
+blog_description: Side projects and exercises
 
 # Pagination
 paginate: 4

@@ -44,8 +44,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: etc
-blog_description: Side projects and exercises
+blog_name: etc.blog
+blog_description: side projects and exercises
 
 # Pagination
 paginate: 4

@@ -24,12 +24,16 @@ h(x)=exp(-\frac{(x-c^2)}{r^2})
 $$
 
 
-* x is the query point
-* c is some fixed point, 0 if distance is measured from origin
-* h(x) is the RBF
+* *x* is the query point
+* *c* is some fixed point, 0 if distance is measured from origin
+* *h(x)* is the RBF
 
 By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
 
 $$
 \sum_{j=1}^{m}  w_j h_j(x)
 $$
+
+* *h(x)* is the RBF
+* *w* is the weight for the RBF
+* *j* in the index for *m* RBFs

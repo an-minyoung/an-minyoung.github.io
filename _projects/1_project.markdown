@@ -1,55 +1,18 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Object Recognition and Scene Detection
+description: a project using OpenCV for vehicles
+img: /assets/img/opencv.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+After I completed my internship I was hired as a product engineer for a small start-up in Omaha, NE in 2015. Our goal was to use an on-board camera for object detection and scene recognition for long-haul truckers.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Using the OpenCV library I was able to create a proof-of-concept program to identify stop signs. Data was collected using our own on board camera and car, driving around town for a few miles collecting data from different neighborhoods and angles. This is important for model training, as the model learns to focus on the sign itself and not background features. Cleaning data is a monotonous task, so I made a tool that cropped and saved images based on user input, frame by frame. Doing so allowed us to have our own dataset with a timestamp of the frame, pixel coordinates of the sign's dimensions and center, and an image of the sign itself.
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+OpenCV has a Haar Cascade classifier that I used for object recognition. The classifier works by loading in a training set of images (LISA annotated stop signs), and a set of negatives, or images that explicitly DO NOT contain stop signs. I used those other traffic signs for the set of negatives to avoid misclassification when implementing more classifiers. A validation set was also created from the same dataset.
 
+Scene detection proved to be a much more complicated task because you can't rely on a single sign to convey context. The program had to know the difference between single a cone on the side of the road and hundreds along a construction site. And since not all construction sites are the same, it had to look out for multiple features like barricades and machinery. False positives were also a concern, such as recognizing the difference between a yellow traffic light a orange construction light.
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+Ultimately the program crude consensus of recognizing environment features.
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+[Here](https://youtu.be/ramZl7Sb27s) is a link to a quick video showing

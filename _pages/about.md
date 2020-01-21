@@ -16,7 +16,7 @@ social: true
 
 My name is Alex Hay. I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics, learning new ways of augmenting human ability, and making new methodologies accessible.
 
-I earned my BS in mechanical engineering in 2014 at Iowa State University. Upon graduating I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) before moving on to the startup world. Since then I've been enrolled in the Masters of Science in Robotics program at Northwestern University.
+I earned my BS in mechanical engineering in 2014 at Iowa State University. Upon graduating I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) before moving on to the startup world. In 2019, I was accepted into the Masters of Science in Robotics program at Northwestern University.
 
 By watching how mother nature overcomes her challenges, we can incorporate those lessons into engineering design. When we apply those naturally inspired systems, not only do we learn more about our own world, but we develop a deeper respect for it.
 

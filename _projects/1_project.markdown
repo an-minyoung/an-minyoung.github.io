@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Object Recognition and Scene Detection
-description: a project using OpenCV for vehicles
+description: Implementing OpenCV for vehicles
 img: /assets/img/opencv.png
 ---
 

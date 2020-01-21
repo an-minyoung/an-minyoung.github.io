@@ -13,6 +13,6 @@ OpenCV has a Haar Cascade classifier that I used for object recognition. The cla
 
 Scene detection proved to be a much more complicated task because you can't rely on a single sign to convey context. The program had to know the difference between single a cone on the side of the road and hundreds along a construction site. And since not all construction sites are the same, it had to look out for multiple features like barricades and machinery. False positives were also a concern, such as recognizing the difference between a yellow traffic light a orange construction light.
 
-Ultimately the program crude consensus of recognizing environment features.
+Ultimately the program uses crude consensus of recognizing environment features, ranging from common construction patterns to colors present in the frame. With more machine learning experience under my belt I would implement a Kalman filter
 
 [Here](https://youtu.be/ramZl7Sb27s) is a link to a quick video showing

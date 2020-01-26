@@ -11,10 +11,15 @@ Using the OpenCV library I was able to create a proof-of-concept program to iden
 
 OpenCV has a Haar Cascade classifier that I used for object recognition. The classifier works by loading in a training set of images (LISA annotated stop signs), and a set of negatives, or images that explicitly do not contain stop signs. I used those other traffic signs for the set of negatives to avoid misclassification when implementing more classifiers. A validation small set was created from the same dataset.
 
-[![demo vid](/assets/img/opencv.png)](https://youtu.be/ramZl7Sb27s)
-Clicking the image will take you to a demo video
-
+<div class="img_row">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/opencv.png">
+</div>
+<div class="col three caption">
+    Screenshot showing the program finding the stop sign and indicating a construction zone nearby
+</div>
 
 Scene detection proved to be a much more complicated task because you can't rely on a single sign to convey context. The program had to know the difference between single a cone on the side of the road and hundreds along a construction site. And since not all construction sites are the same, it had to look out for multiple features like barricades and machinery. False positives were also a concern, such as recognizing the difference between a yellow traffic light a orange construction light.
 
 Ultimately the program uses crude consensus of recognizing environment features, ranging from common construction patterns to colors present in the frame. With more machine learning experience under my belt I would implement a Kalman filter as a more robust consensus method.
+
+[Here](https://youtu.be/ramZl7Sb27s) is a link to a quick video showing the program in action.

@@ -39,7 +39,7 @@ $$
 $$
 
 $$
- \sigma = \frac{1}{1+e^x}
+ \sigma = \frac{1}{1+e^Sigma (x_iw_i )}
 $$
 
 * *x* is the sample input

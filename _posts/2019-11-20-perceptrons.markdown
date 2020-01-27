@@ -40,5 +40,5 @@ $$
  \sigma = \frac{1}{1+e^x}
 $$
 
-* *x_n* is the sample input
-* *w_n* is the the associated weight for the input sample
+* *x* is the sample input
+* *w* is the the associated weight for the input sample

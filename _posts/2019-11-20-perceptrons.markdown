@@ -38,6 +38,7 @@ $$
 \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
 $$
 <br>
+
 <br>
 $$
 \sigma = \frac{1}{1+e^{\Sigma (x_iw_i )}}

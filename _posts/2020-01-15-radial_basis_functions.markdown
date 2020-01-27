@@ -6,7 +6,7 @@ description: Using radial basis functions to approximate a linear mapping
 ---
 
 ### Color Specific Photoreceptors - Cones
-Inside the retina are cone cells, photosensitive cells that differentiate color. Humans have 3 different types of cones; (S)mall, (M)edium, and (L)arge, corresponding to the length of the wavelength that excites it. The excitement amplitudes of each type of cone is perceived to us as color, and [the color perceived is the sum of each cone response](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_5.gif).
+Inside the retina are cone cells, photosensitive cells that differentiate color. Humans have 3 different types of cones; (S)mall, (M)edium, and (L)arge, corresponding to the length of the wavelength that excites it. The excitement amplitudes of each type of cone is perceived to us as color, and [the color perceived is the sum of each cone response](/assets/img/Figure_5.gif).
 
 <div class="img_row">
     <img class="col three" src="{{ site.baseurl }}/assets/img/figure_5.gif">
@@ -71,6 +71,6 @@ In this exercise we have the following dataset:
     <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_4.png">
 </div>
 
-Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level. It's the network of these cone cells that provide the stimulus we interpret as color. 
+Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level. It's the network of these cone cells that provide the stimulus we interpret as color.
 
 <!-- [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv) -->

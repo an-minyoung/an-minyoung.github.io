@@ -7,6 +7,8 @@ img: /assets/img/terminator.gif
 
 The goal for the project was to use Baxter to recognize a nerf gun, pick it up and fire it at a coffee mug. At each step Baxter asks the user for confirmation before moving to the next sequence in the task.
 
+<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+
 ### Overall System Architecture and High Level Concepts
 
 We made Baxter a high level state machine to navigate the task. The state machine (commander node) coordinated his left arm, right arm, cameras, and image processing. We determined that the left arm would find, pick up, and aim the gun, and the right arm would pull the trigger. AprilTags were used to identify the inital position of the nerf gun using the cameras on Baxter's wrists.
@@ -42,6 +44,6 @@ While the riser did lift the trigger out of the safety bubble, Baxter's movement
 
 ### Future Work
 
-We would like to implement tracking and shooting of objects that move through space. This would require a more robust system than Darknet since the update rate was extremely slow. We could potentially also take out objects we aren't detecting in Darknet. For stationary objects, we could implement a planning algorithm that once the camera detects the desired object, we would no longer have to run Darknet or other object detection algorithms which would speed up the time it takes between first detecting an object and being lined up to shoot it. 
+We would like to implement tracking and shooting of objects that move through space. This would require a more robust system than Darknet since the update rate was extremely slow. We could potentially also take out objects we aren't detecting in Darknet. For stationary objects, we could implement a planning algorithm that once the camera detects the desired object, we would no longer have to run Darknet or other object detection algorithms which would speed up the time it takes between first detecting an object and being lined up to shoot it.
 
 [Here](https://youtu.be/2MRsNefNWmw) is a link to the final video showing Baxter in action.

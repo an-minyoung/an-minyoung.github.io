@@ -5,6 +5,10 @@ date:   2020-01-15
 description: Using radial basis functions to approximate a linear mapping
 ---
 
+<ul>
+  <a href="https://github.com/alexanderhay2020/469_bme/blob/master/ps1/py/part1.py"><div class="color-button">GitHub</div></a>
+</ul>
+
 ### Color Specific Photoreceptors - Cones
 Inside the retina are cone cells, photosensitive cells that differentiate color. Humans have 3 different types of cones; (S)mall, (M)edium, and (L)arge, corresponding to the length of the wavelength that excites it. The excitement amplitudes of each type of cone is perceived to us as color, and [the color perceived is the sum of each cone response](/assets/img/Figure_5.gif).
 

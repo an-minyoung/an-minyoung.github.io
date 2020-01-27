@@ -65,6 +65,7 @@ $$
 adjustment = \epsilon*\sigma'
 $$
 <br>
+
 $$
 w_i=w_i+ \hat{x}^T \cdot adjustments
 $$

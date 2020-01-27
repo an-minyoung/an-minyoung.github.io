@@ -5,7 +5,7 @@ date:   2019-11-20
 description: Using layered perceptrons to compute logic functions
 ---
 <p>
-<br>
+  <a href=""></a>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">GitHub</div></a>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/pdf/perceptron.pdf"><div class="color-button">Report</div></a>
 </p>

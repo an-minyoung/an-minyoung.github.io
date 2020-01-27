@@ -5,9 +5,9 @@ description: Implementing OpenCV for vehicles
 img: /assets/img/opencv.png
 ---
 
-<ul>
+<p>
   <a href="https://youtu.be/ramZl7Sb27s"><div class="color-button">YouTube</div></a>
-</ul>
+</p>
 
 After I completed my internship I was hired as a product engineer for a small start-up in Omaha, NE in 2015. Our goal was to use an on-board camera for object detection and scene recognition for long-haul truckers.
 

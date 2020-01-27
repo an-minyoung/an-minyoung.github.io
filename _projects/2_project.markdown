@@ -5,10 +5,10 @@ description: Embedded Systems Final Project
 img: /assets/img/terminator.gif
 ---
 
-<ul>
+<p>
   <a href="https://github.com/ME495-EmbeddedSystems/final-project-terminator"><div class="color-button">GitHub</div></a>
   <a href="https://youtu.be/2MRsNefNWmw"><div class="color-button">YouTube</div></a>
-</ul>
+</p>
 
 
 

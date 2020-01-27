@@ -2,7 +2,7 @@
 layout: page
 title: Using Baxter for Object Recognition and Manipulation
 description: Embedded Systems Final Project
-img: /assets/img/terminator.gif
+img: /assets/img/terminator_thumb.gif
 ---
 
 The goal for the project was to use Baxter to recognize a nerf gun, pick it up and fire it at a coffee mug. At each step Baxter asks the user for confirmation before moving to the next sequence in the task.

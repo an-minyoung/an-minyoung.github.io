@@ -37,10 +37,26 @@ Here is a sketch algorithm to implement a perceptron node:
 $$
 \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
 $$
-
+<br>
 $$
  \sigma = \frac{1}{1+e^{\Sigma (x_iw_i )}}
 $$
-
+<br>
 * *x* is the sample input
 * *w* is the the associated weight for the input sample
+
+For the perceptron to work properly, the weights need to be adjusted according to the desired output. To calculate and adjust the error, we first subtract the predicted output from the actual output:
+
+$$
+\epsilon = y − σ
+$$
+
+Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment:
+
+$$
+\sigma' = \sigma (1- \sigma)
+$$
+<br>
+$$
+adjustment = \epsilon*\sigma'
+$$

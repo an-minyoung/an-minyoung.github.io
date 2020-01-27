@@ -16,7 +16,10 @@ Perceptrons are special in that they can represent fundamental logic functions: 
 a perceptron can’t represent XAND or XOR, layered perceptrons can, thus all logic functions can potentially be
 built using a layered network structure.
 
-<p>
+<p class="aligncenter">
+    <img src="image.jpg" alt="centered image" />
+</p>
+
     <img src="/assets/img/nn_01.png" width="511" height="286" alt>
     <br>
     <a href="https://medium.com/@lucaspereira0612/solving-xor-with-a-single-perceptron-34539f395182"><em>images</em></a><em> showing perceptrons' logic structure</em>

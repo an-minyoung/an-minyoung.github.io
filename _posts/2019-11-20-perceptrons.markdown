@@ -46,8 +46,7 @@ $$
 * *x* is the sample input
 * *w* is the the associated weight for the input sample
 
-For the perceptron to work properly, the weights need to be adjusted according to the desired output. To calculate and adjust the error, we first subtract the predicted output from the actual output:
 
 $$
-\epsilon = y − σ
+  \epsilon = y − σ
 $$

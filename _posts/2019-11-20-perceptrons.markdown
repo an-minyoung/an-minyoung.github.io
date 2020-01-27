@@ -38,10 +38,7 @@ Here is a sketch algorithm to implement a perceptron node:
 $$
 \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
 $$
-
 <br>
-<br>
-
 $$
 \sigma = \frac{1}{1+e^{\Sigma (x_iw_i )}}
 $$
@@ -55,7 +52,6 @@ For the perceptron to work properly, the weights need to be adjusted according t
 $$
 \epsilon=y-\sigma
 $$
-
 <br>
 
 Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment for the weights:
@@ -63,15 +59,12 @@ Using gradient descent, we find the adjustment needed for the weights by computi
 $$
 \sigma' = \sigma (1- \sigma)
 $$
-
 <br>
 
 $$
 adjustment = \epsilon*\sigma'
 $$
-
 <br>
-
 $$
 w_i=w_i+ \hat{x}^T \cdot adjustments
 $$

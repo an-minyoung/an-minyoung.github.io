@@ -5,14 +5,17 @@ date:   2019-11-20
 description: Using layered perceptrons to compute logic functions
 ---
 
-### Color Specific Photoreceptors - Cones
-Inside the retina are cone cells, photosensitive cells that differentiate color. Humans have 3 different types of cones; (S)mall, (M)edium, and (L)arge, corresponding to the length of the wavelength that excites it. The excitement amplitudes of each type of cone is perceived to us as color, and [the color perceived is the sum of each cone response](/assets/img/Figure_5.gif).
+### Emulated Neurons
+Neural networks are built on units called neurons, and for this exercise a special neuron called a perceptron is used.
+Perceptrons are special in that they can represent fundamental logic functions: AND, OR, NAND, NOR. Though
+a perceptron can’t represent XAND or XOR, layered perceptrons can, thus all logic functions can potentially be
+built using a layered network structure.
 
 <div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/figure_5.gif">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/nn.png">
 </div>
 <div class="col three caption">
-    The color perceived is the sum of each cone response
+    Image from this [article](https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/)
 </div>
 
 ### Radial Basis Functions

@@ -6,13 +6,14 @@ img: /assets/img/terminator.gif
 ---
 
 The goal for the project was to use Baxter to recognize a nerf gun, pick it up and fire it at a coffee mug. At each step Baxter asks the user for confirmation before moving to the next sequence in the task.<br>
-<a href="">
-  <div class="color-button">fasdl</div>
-<a href="project_1.pdf">
-  <div class="color-button">report</div>
-<a href="">
-  <div class="color-button">code</div>
-<br>
+<li>
+  <a href="">
+    <div class="color-button">fasdl</div>
+  <a href="project_1.pdf">
+    <div class="color-button">report</div>
+  <a href="">
+    <div class="color-button">code</div>
+</li><br>
 
 ### Overall System Architecture and High Level Concepts
 

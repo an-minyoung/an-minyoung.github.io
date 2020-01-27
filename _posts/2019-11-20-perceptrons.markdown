@@ -11,6 +11,8 @@ Perceptrons are special in that they can represent fundamental logic functions: 
 a perceptron can’t represent XAND or XOR, layered perceptrons can, thus all logic functions can potentially be
 built using a layered network structure.
 
+![alt text](/assets/img/nn.png" [article](https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/)")
+
 <div class="img_row">
     <img class="col three" src="{{ site.baseurl }}/assets/img/nn.png">
 </div>

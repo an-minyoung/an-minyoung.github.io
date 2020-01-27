@@ -17,12 +17,12 @@ a perceptron can’t represent XAND or XOR, layered perceptrons can, thus all lo
 built using a layered network structure.
 
 <p>
-    <img src="/assets/img/nn_01.png" width="511" height="286" class="center" alt>
+    <img src="/assets/img/nn_01.png" width="511" height="286" style="width:50%;" alt>
     <br>
     <a href="https://medium.com/@lucaspereira0612/solving-xor-with-a-single-perceptron-34539f395182"><em>images</em></a><em> showing perceptrons' logic structure</em>
 </p>
 
-Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function.For this exercise I used the sigmoid function, but there are many others.
+Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function.For this exercise I used the sigmoid function, but there are many others. Below is a sketch algorithm of how the perceptron works.
 
 $$
 \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n

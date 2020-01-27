@@ -26,6 +26,16 @@ body {
 }
 
 /**
+ * Center images
+ */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/**
  * Color button
  */
 .color-button {

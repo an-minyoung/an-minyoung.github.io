@@ -35,9 +35,10 @@ Perceptrons work by multiplying a vector of inputs by a weight vector and passin
 Here is a sketch algorithm to implement a perceptron node:
 
 $$
-\\ \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
-
-\\ \sigma = \frac{1}{1+e^x}
+\Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
+$$
+$$
+ \sigma = \frac{1}{1+e^x}
 $$
 
 * *x* is the sample input

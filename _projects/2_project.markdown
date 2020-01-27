@@ -13,12 +13,17 @@ The goal for the project was to use Baxter to recognize a nerf gun, pick it up a
 
 We made Baxter a high level state machine to navigate the task. The state machine (commander node) coordinated his left arm, right arm, cameras, and image processing. We determined that the left arm would find, pick up, and aim the gun, and the right arm would pull the trigger. AprilTags were used to identify the inital position of the nerf gun using the cameras on Baxter's wrists.
 
-<div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/baxter_01.png">
-</div>
-<div class="col three caption">
-    Baxter
-</div>
+<ul>
+	<li>
+		<b>Project title #1</b>: Give a brief description of your first project here. You can link the relevant research paper(s), report, code repository and any other detail(s) by editing <i>projects.md</i> file<br>
+		<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+	</li><br>
+	<li>
+		<b>Project title #2</b>: Give a brief description of your second project here. You can link the relevant research paper(s), report, code repository and any other detail(s) by editing <i>projects.md</i> file<br>
+		<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+	</li><br>
+
+</ul>
 
 We used the move_it kinematics library to manipulate both of Baxter's arms. Baxter's wrists/cameras presented a unique challenge because their rotation is not quite 360°, with the midpoint of the rotation placing the camera underneath the gripper. Since the his arm and camera would be in line with the nerf gun we wanted to use the wrist camera to aim (the only other options were his face camera and the camera on his other arm). Baxter also has a "safety bubble" that prevents the arms from colliding into the body. With the nerf gun in hand the trigger ended up falling into the safety bubble.
 

@@ -45,12 +45,12 @@ print "Starting Weights: "
 print weights
 print
 
-for i in range(20000):
+for i in range(200):
     """
     neuron
     """
     input = training_input
-    
+
     xw = np.dot(input,weights) # [4x3]*[3*1]=[4x1]
 
     output = sigmoid(xw)

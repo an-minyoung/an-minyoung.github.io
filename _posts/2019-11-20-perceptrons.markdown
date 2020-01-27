@@ -79,11 +79,23 @@ $$
 Networked together, perceptrons can be immensely powerful and are the foundations by which many neural nets are built. These new weights wouldn’t have changed much, but over many iterations they converge to their proper values of minimizing error. This method of adjusting the weights is called backpropagation.
 
 To test the algorithm a small, simple sample set was used to provide easy-to-interpret results. The table below
-shows this set:
+shows the following dataset such that the output is 1 if first or second columns contained a 1, disregrading the third column:
 
 |         | Variable 1 | Variable 2 | Variable 3 | Output |
 |---------|------------|------------|------------|--------|
-| Input 1 | 0          | 0          | 0          | 0      |
+| Input 1 | 0          | 0          | 1          | 0      |
 | Input 2 | 1          | 1          | 1          | 1      |
 | Input 3 | 1          | 0          | 1          | 1      |
 | Input 4 | 0          | 1          | 1          | 1      |
+
+Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py), linked at the top of this page, demonstrates the algorithm and predicted output. Given the input array and initial weights adjusted
+200​ times, the predicted results are as follows:
+
+|         | Variable 1 | Variable 2 | Variable 3 | Output |
+|---------|------------|------------|------------|--------|
+| Input 1 | 0          | 0          | 1          | 0.135  |
+| Input 2 | 1          | 1          | 1          | 0.999  |
+| Input 3 | 1          | 0          | 1          | 0.917  |
+| Input 4 | 0          | 1          | 1          | 0.917  |
+
+Given an infinite number of iterations the algorithm would converge to either 0 or 1, but in 200 iterations our results are close enough to see a clear distinction.

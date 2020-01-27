@@ -34,8 +34,8 @@ While the riser did lift the trigger out of the safety bubble, Baxter's movement
 <div class="img_row">
     <img class="col three" src="{{ site.baseurl }}/assets/img/terminator.gif">
 </div>
-<!-- <div class="col three caption">
-    caption
-</div> -->
+<div class="col three caption">
+    Baxter pulling the trigger
+</div>
 
 [Here](https://youtu.be/2MRsNefNWmw) is a link to the final video showing Baxter in action.

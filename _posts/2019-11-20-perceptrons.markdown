@@ -36,6 +36,8 @@ Here is a sketch algorithm to implement a perceptron node:
 
 $$
 \sigma = \frac{1}{1+e^{\Sigma (x_iw_i )}}
-
-\epsilon = y − \sigma
+$$
+<br>
+$$
+\epsilon=y-\sigma
 $$

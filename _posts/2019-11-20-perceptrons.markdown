@@ -12,13 +12,13 @@ a perceptron can’t represent XAND or XOR, layered perceptrons can, thus all lo
 built using a layered network structure.
 
 <p>
-    <img src="/assets/img/nn0.png" alt>
+    <img src="/assets/img/nn_01.png" alt>
     <br>
     <a href="https://medium.com/@lucaspereira0612/solving-xor-with-a-single-perceptron-34539f395182"><em>images</em></a><em> showing perceptrons' logic structure</em>
 </p>
 
 <p>
-    <img src="/assets/img/nn02.png" alt>
+    <img src="/assets/img/nn_02.png" alt>
     <br>
     <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a><em> showing perceptron model</em>
 </p>

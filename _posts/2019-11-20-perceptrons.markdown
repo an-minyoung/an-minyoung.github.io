@@ -44,10 +44,11 @@ $$
 $$
 <br>
 
-* *x* is the sample input
+<!-- * *x* is the sample input
 * *w* is the the associated weight for the input sample
 <br>
-<br>
+<br> -->
+
 $$
-  \epsilon = y − σ
+\epsilon = y − σ
 $$

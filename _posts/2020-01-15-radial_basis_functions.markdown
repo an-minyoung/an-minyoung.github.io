@@ -63,14 +63,12 @@ In this exercise we have the following dataset:
 
 <div class="img_row">
     <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_1.png">
-    <img class="col one last" src="{{ site.baseurl }}/assets/img/Figure_2.png">
+    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_2.png">
 </div>
 
-
 <div class="img_row">
-    <img class="col one first" src="{{ site.baseurl }}/assets/Figure_1.png">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_2.png">
-    <img class="col one last" src="{{ site.baseurl }}/assets/Figure_3.png">
+    <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_3.png">
+    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_4.png">
 </div>
 
 Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level, and it's the network of these cone cells that provide the stimulus we interpret as color. Techniques like this are already in use in glasses for correcting colorblindness, or used in 2D space to generalize remappings of hand-eye coordination (visuomotor coordinate transformation)

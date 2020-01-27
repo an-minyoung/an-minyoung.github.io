@@ -45,8 +45,23 @@ $$
 $$
 <br>
 
-For the perceptron to work properly, the weights need to be adjusted according to the desired output. To calculate and adjust the error, we first subtract the predicted output from the actual output:
+For the perceptron to work properly, the weights need to be adjusted according to the desired output. To calculate and adjust the error we first subtract the predicted output from the actual output.
 
 $$
 \epsilon=y-\sigma
+$$
+
+<br>
+
+Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment:
+
+$$
+\sigma' = \sigma (1- \sigma)
+$$
+
+<br>
+<br>
+
+$$
+adjustment = \epsilon*\sigma'
 $$

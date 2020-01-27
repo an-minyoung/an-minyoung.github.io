@@ -24,7 +24,7 @@ built using a layered network structure.
 
 Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function. For this exercise I used the sigmoid function, but there are many others. Weights are [nxm] matrices, where n is the dimension of the input and m is the dimension of the output.
 <p>
-    <img src="/assets/img/perceptron.jpg" al/t>
+    <img src="/assets/img/perceptron.jpg" alt/>
     <br>
     <!-- <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a> -->
     <em> image showing perceptron model</em>
@@ -34,36 +34,6 @@ Perceptrons work by multiplying a vector of inputs by a weight vector and passin
 
 Here is a sketch algorithm to implement a perceptron node:
 
-$$
-h(x)=exp(-\frac{(x-c^2)}{r^2})
-$$
-
-
-* *x* is the query point
-* *c* is some fixed point, 0 if distance is measured from origin
-* *h(x)* is the RBF
-
-By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
-
-$$
-f(x) = \sum_{j=1}^{m}  w_j h_j(x)
-$$
-
-* *h(x)* is the RBF
-* *w* is the weight for the RBF
-* *j* in the index for *m* samples of x
-
-The weight vector can be found using linear regression, ultimately leading to this equation:
-
-$$
- \overrightarrow{w} = (H^TH)^{-1}H^T\overrightarrow{y}
-$$
-
-$$
-\Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
-$$
-<br>
-<br>
 $$
 \sigma = \frac{1}{1+e^{\Sigma (x_iw_i )}}
 $$

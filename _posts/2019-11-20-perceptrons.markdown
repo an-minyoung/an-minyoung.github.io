@@ -24,7 +24,7 @@ built using a layered network structure.
 
 Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function. For this exercise I used the sigmoid function, but there are many others. Weights are [nxm] matrices, where n is the dimension of the input and m is the dimension of the output.
 <p>
-    <img src="/assets/img/perceptron.jpg" alt/>
+    <img src="/assets/img/nn_02.png" alt/>
     <br>
     <!-- <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a> -->
     <em> image showing perceptron model</em>
@@ -58,7 +58,7 @@ $$
 * *y* is the acutal output
 * *σ* is defined above
 
-Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment for the weights:
+Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function and multiplying that by the error to give us the final adjustment for the weights:
 
 $$
 \sigma' = \sigma (1- \sigma)
@@ -75,3 +75,5 @@ $$
 $$
 w_i=w_i+ \hat{x}^T \cdot adjustments
 $$
+
+Networked together, perceptrons can be immensely powerful and are the foundations by which many neural nets are built. These new weights wouldn’t have changed much, but over many iterations they converge to their proper values of minimizing error. This method of adjusting the weights is called backpropagation.

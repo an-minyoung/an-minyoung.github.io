@@ -5,10 +5,11 @@ description: Embedded Systems Final Project
 img: /assets/img/terminator.gif
 ---
 
+<br>
 
 The goal for the project was to use Baxter to recognize a nerf gun, pick it up and fire it at a coffee mug. At each step Baxter asks the user for confirmation before moving to the next sequence in the task.<br>
 <ul>
-  <a href="https://github.com/ME495-EmbeddedSystems/final-project-terminator"><div class="color-button">GitHub</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+  <a href="https://github.com/ME495-EmbeddedSystems/final-project-terminator"><div class="color-button">GitHub</div></a>
 </ul>
 ### Overall System Architecture and High Level Concepts
 

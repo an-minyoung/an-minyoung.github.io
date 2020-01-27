@@ -4,7 +4,10 @@ title:  Computing Logic Funcitons using Perceptrons
 date:   2019-11-20
 description: Using layered perceptrons to compute logic functions
 ---
-
+<p>
+  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">GitHub</div></a>
+  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/pdf/perceptron.pdf"><div class="color-button">Report</div></a>
+</p>
 ### Emulated Neurons
 Neural networks are built on units called neurons, and for this exercise a special neuron called a perceptron is used.
 Perceptrons are special in that they can represent fundamental logic functions: AND, OR, NAND, NOR. Though
@@ -23,6 +26,7 @@ built using a layered network structure.
     <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a><em> showing perceptron model</em>
 </p>
 
+Perceptrons work by multiplying a vector of inputs by a weight vector and passing the
 
 ### Radial Basis Functions
 A Radial Basis Function (RBFs) is a function whose value depends the distance between a query point and a fixed point. For this exercise I used the Gaussian Function:

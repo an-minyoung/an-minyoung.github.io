@@ -34,12 +34,14 @@ Perceptrons work by multiplying a vector of inputs by a weight vector and passin
 
 Here is a sketch algorithm to implement a perceptron node:
 
+<br>
 $$
 \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
 $$
-<br>
 
 <br>
+<br>
+
 $$
 \sigma = \frac{1}{1+e^{\Sigma (x_iw_i )}}
 $$
@@ -53,15 +55,20 @@ $$
 
 <br>
 
-Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment:
+Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment for the weights:
 
 $$
 \sigma' = \sigma (1- \sigma)
 $$
 
 <br>
-<br>
 
 $$
 adjustment = \epsilon*\sigma'
+$$
+
+<br>
+
+$$
+w_i=w_i+ \hat{x}^T \cdot adjustments
 $$

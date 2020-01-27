@@ -46,7 +46,8 @@ $$
 * *x* is the sample input
 * *w* is the the associated weight for the input sample
 
-
+<p>
+</p>
 $$
   \epsilon = y − σ
 $$

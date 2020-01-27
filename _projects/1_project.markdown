@@ -5,6 +5,10 @@ description: Implementing OpenCV for vehicles
 img: /assets/img/opencv.png
 ---
 
+<ul>
+  <a href="https://youtu.be/ramZl7Sb27s"><div class="color-button">YouTube</div></a>
+</ul>
+
 After I completed my internship I was hired as a product engineer for a small start-up in Omaha, NE in 2015. Our goal was to use an on-board camera for object detection and scene recognition for long-haul truckers.
 
 Using the OpenCV library I was able to create a proof-of-concept program to identify stop signs. Data was collected using our own on board camera and car, driving around town for a few miles collecting data from different neighborhoods and angles. This is important for model training as the model learns to focus on the sign itself, not background features. Cleaning data is a monotonous task, so I made a tool that cropped and saved images based on user input, frame by frame. Doing so allowed us to have our own dataset with a timestamp of the frame, pixel coordinates of the sign's dimensions and center, and an image of the sign itself.

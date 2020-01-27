@@ -11,6 +11,7 @@ The goal for the project was to use Baxter to recognize a nerf gun, pick it up a
 <ul>
   <a href="https://github.com/ME495-EmbeddedSystems/final-project-terminator"><div class="color-button">GitHub</div></a>
 </ul>
+
 ### Overall System Architecture and High Level Concepts
 
 We made Baxter a high level state machine to navigate the task. The state machine (commander node) coordinated his left arm, right arm, cameras, and image processing. We determined that the left arm would find, pick up, and aim the gun, and the right arm would pull the trigger. AprilTags were used to identify the inital position of the nerf gun using the cameras on Baxter's wrists.

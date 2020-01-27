@@ -77,3 +77,13 @@ w_i=w_i+ \hat{x}^T \cdot adjustments
 $$
 
 Networked together, perceptrons can be immensely powerful and are the foundations by which many neural nets are built. These new weights wouldn’t have changed much, but over many iterations they converge to their proper values of minimizing error. This method of adjusting the weights is called backpropagation.
+
+To test the algorithm a small, simple sample set was used to provide easy-to-interpret results. The table below
+shows this set:
+
+|         | Variable 1 | Variable 2 | Variable 3 | Output |
+|---------|------------|------------|------------|--------|
+| Input 1 | 0          | 0          | 0          | 0      |
+| Input 2 | 1          | 1          | 1          | 1      |
+| Input 3 | 1          | 0          | 1          | 1      |
+| Input 4 | 0          | 1          | 1          | 1      |

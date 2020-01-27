@@ -22,7 +22,17 @@ built using a layered network structure.
     <a href="https://medium.com/@lucaspereira0612/solving-xor-with-a-single-perceptron-34539f395182"><em>images</em></a><em> showing perceptrons' logic structure</em>
 </p>
 
-Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function.For this exercise I used the sigmoid function, but there are many others. Weights are [nxm] matrices, where n is the dimension of the input and m is the dimension of the output. Below is a sketch algorithm of how the perceptron works.
+Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function. For this exercise I used the sigmoid function, but there are many others. Weights are [nxm] matrices, where n is the dimension of the input and m is the dimension of the output.
+<p>
+    <img src="/assets/img/perceptron.jpg" alt>
+    <br>
+    <!-- <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a> -->
+    <em> image showing perceptron model</em>
+</p>
+
+<br>
+
+Here is a sketch algorithm to implement a perceptron node:
 
 $$
 \Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
@@ -32,10 +42,3 @@ $$
 
 * *x_n* is the sample input
 * *w_n* is the the associated weight for the input sample
-
-<p>
-    <img src="/assets/img/perceptron.jpg" alt>
-    <br>
-    <!-- <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a> -->
-    <em> image showing perceptron model</em>
-</p>

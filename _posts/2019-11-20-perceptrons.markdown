@@ -14,7 +14,7 @@ built using a layered network structure.
 <p>
     <img src="/assets/img/nn.png" alt>
     <br>
-    <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</a> taken from this article</em>
+    <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a><em> taken from this article</em>
 </p>
 
 

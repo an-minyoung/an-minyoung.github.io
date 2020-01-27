@@ -7,12 +7,8 @@ img: /assets/img/terminator.gif
 
 The goal for the project was to use Baxter to recognize a nerf gun, pick it up and fire it at a coffee mug. At each step Baxter asks the user for confirmation before moving to the next sequence in the task.<br>
 <li>
-  <a href="">
-    <div class="color-button">fasdl</div>
-  <a href="project_1.pdf">
-    <div class="color-button">report</div>
-  <a href="">
-    <div class="color-button">code</div>
+	<b>Project title #1</b>: Give a brief description of your first project here. You can link the relevant research paper(s), report, code repository and any other detail(s) by editing <i>projects.md</i> file<br>
+	<a href=""><div class="color-button">paper</div></a><a href="project_1.pdf"><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
 </li><br>
 
 ### Overall System Architecture and High Level Concepts

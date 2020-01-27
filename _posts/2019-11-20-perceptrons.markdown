@@ -21,13 +21,16 @@ built using a layered network structure.
     <a href="https://medium.com/@lucaspereira0612/solving-xor-with-a-single-perceptron-34539f395182"><em>images</em></a><em> showing perceptrons' logic structure</em>
 </p>
 
+Perceptrons work by multiplying a vector of inputs by a weight vector and passing the sum of that input-weight vectors through an activation function.For this exercise I used the sigmoid function, but there are many others.
+
 <p>
-    <img src="/assets/img/nn_02.png" alt>
+    <img src="/assets/img/perceptron.jpg" alt>
     <br>
-    <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a><em> showing perceptron model</em>
+    <!-- <a href="https://missinglink.ai/guides/neural-network-concepts/neural-network-bias-bias-neuron-overfitting-underfitting/"><em>image</em></a> -->
+    <em> image showing perceptron model</em>
 </p>
 
-Perceptrons work by multiplying a vector of inputs by a weight vector and passing the
+
 
 ### Radial Basis Functions
 A Radial Basis Function (RBFs) is a function whose value depends the distance between a query point and a fixed point. For this exercise I used the Gaussian Function:

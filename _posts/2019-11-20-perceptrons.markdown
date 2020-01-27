@@ -54,12 +54,18 @@ $$
 $$
 <br>
 
+* *ϵ* is the error
+* *y* is the acutal output
+* *σ* is defined above
+
 Using gradient descent, we find the adjustment needed for the weights by computing the derivative of the sigmoid function. Then we multiply that by the error to give us the final adjustment for the weights:
 
 $$
 \sigma' = \sigma (1- \sigma)
 $$
 <br>
+
+* *σ'* is sithe sigmoid derivative when given σ as above
 
 $$
 adjustment = \epsilon*\sigma'

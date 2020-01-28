@@ -106,5 +106,5 @@ Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020
 <p>
     <img src="/assets/img/Figure_2-1.png" width="50%;" height="50%;" alt/><img src="/assets/img/Figure_2-2.png" width="50%;" height="50%;" alt/>
     <br>
-    <em>Initial 2D dataset</em>
+    <em>Initial 2D dataset</em><em>Perceptron classifier results</em>
 </p>

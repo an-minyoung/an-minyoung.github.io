@@ -90,6 +90,7 @@ shows the following dataset such that the output is 1 if first or second columns
 | Input 4 | 0          | 1          | 1          | 1      |
 
 <p>
+  <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">perceptron.py</div></a>
 </p>
 Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py), linked at the top of this page as "GitHub 1", demonstrates the algorithm and predicted output. Given the input array and initial weights adjusted
@@ -105,6 +106,7 @@ Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.githu
 Given an infinite number of iterations the algorithm would converge to either 0 or 1, but in 200 iterations our results are close enough to see a clear distinction.
 
 <p>
+  <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"><div class="color-button">perceptron.py</div></a>
 </p>
 

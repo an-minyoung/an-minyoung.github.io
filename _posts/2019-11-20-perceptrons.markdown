@@ -104,7 +104,6 @@ Given an infinite number of iterations the algorithm would converge to either 0 
 Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py), linked at the top of this page as "GitHub 2", we can create a linear classifier.
 
 <em>Applied to a larger dataset</em>
-  <div class=""></div>
   <div class="color-button">GitHub 2<a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"></a></div>
 <em>, linked at the top of this page as "GitHub 2", we can create a linear classifier.</em>
 

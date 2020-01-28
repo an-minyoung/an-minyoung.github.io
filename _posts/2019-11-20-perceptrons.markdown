@@ -7,8 +7,7 @@ description: Using layered perceptrons to compute logic functions
 <p>
   <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/pdf/perceptron.pdf"><div class="color-button">Report</div></a>
-  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">GitHub 1</div></a>
-  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"><div class="color-button">GitHub 2</div></a>
+  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/"><div class="color-button">GitHub</div></a>
 </p>
 
 ### Emulated Neurons
@@ -93,7 +92,7 @@ shows the following dataset such that the output is 1 if first or second columns
   <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">perceptron.py</div></a>
 </p>
-Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py), linked at the top of this page as "GitHub 1", demonstrates the algorithm and predicted output. Given the input array and initial weights adjusted
+[perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py) demonstrates the algorithm and predicted output. Given the input array and initial weights adjusted
 200​ times, the predicted results are as follows:
 
 |         | Variable 1 | Variable 2 | Variable 3 | Output |

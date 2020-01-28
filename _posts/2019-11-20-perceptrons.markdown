@@ -89,7 +89,7 @@ shows the following dataset such that the output is 1 if first or second columns
 | Input 3 | 1          | 0          | 1          | 1      |
 | Input 4 | 0          | 1          | 1          | 1      |
 
-Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py), linked at the top of this page, demonstrates the algorithm and predicted output. Given the input array and initial weights adjusted
+Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py), linked at the top of this page as "GitHub 1", demonstrates the algorithm and predicted output. Given the input array and initial weights adjusted
 200​ times, the predicted results are as follows:
 
 |         | Variable 1 | Variable 2 | Variable 3 | Output |
@@ -101,4 +101,10 @@ Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.githu
 
 Given an infinite number of iterations the algorithm would converge to either 0 or 1, but in 200 iterations our results are close enough to see a clear distinction.
 
-Applied to a larger dataset
+Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py), linked at the top of this page as "GitHub 2", we can create a linear classifier.
+
+<p>
+    <img src="/assets/img/Figure_2-1.png" alt/>
+    <br>
+    <em>Initial 2D dataset</em>
+</p>

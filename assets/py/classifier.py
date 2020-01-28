@@ -84,7 +84,7 @@ def perceptron():
     network parameters
     **********************************************
     """
-    epochs = 500
+    epochs = 50
 
     w = np.random.random((3,1)) # starting weight for each column (synapse)
     bias = np.ones((len(dat),1)) # bias

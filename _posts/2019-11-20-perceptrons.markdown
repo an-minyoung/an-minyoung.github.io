@@ -105,7 +105,7 @@ Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020
 
 <em>Applied to a larger dataset</em>
   <div class=""></div>
-  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"><div class="color-button">GitHub 2</div></a>
+  <div class="color-button">GitHub 2<a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"></a></div>
 <em>, linked at the top of this page as "GitHub 2", we can create a linear classifier.</em>
 
 <p>

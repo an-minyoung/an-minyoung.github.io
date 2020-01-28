@@ -13,7 +13,7 @@ title: resume
 ### Experience
 <p>
   <a href=""></a><div class=""></div>
-  <a href="https://alexanderhay2020.github.io/blob/master/assets/pdf/resume_hay_alexander.pdf"><div class="color-button">Resume</div></a>
+  <a href="/assets/pdf/resume_hay_alexander.pdf"><div class="color-button">Resume</div></a>
 </p>
 #### Pearce Services - Design Engineer...
 #### <su>2014 - 2019</su>

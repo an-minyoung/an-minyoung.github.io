@@ -84,14 +84,14 @@ def perceptron():
     network parameters
     **********************************************
     """
-    epochs = 100
+    epochs = 500
 
     w = np.random.random((3,1)) # starting weight for each column (synapse)
     bias = np.ones((len(dat),1)) # bias
     v_bias = np.ones((len(v_dat),1)) # bias
 
     error_arr1 = np.zeros((epochs,1)) # training error
-    error_arr2 = np.zeros((epochs,1)) # training error
+    error_arr2 = np.zeros((epochs,1)) # validation error
 
     """
     **********************************************
@@ -146,11 +146,6 @@ def perceptron():
     print percent_error[0]
     print
 
-    print "Network Percent Error (%):"
-    v_percent_error=(sum(v_y-np.round(v_y_hat,0))/epochs)*100
-    print v_percent_error[0]
-    print
-
     y_hat = np.dot(input,w)
     v_y_hat = np.dot(v_input,w)
 
@@ -162,7 +157,7 @@ def perceptron():
     fig1 = plt.figure()
     plt.plot(dat1.T[0], dat1.T[1], "ro", label="dat1")
     plt.plot(dat2.T[0], dat2.T[1], "bo", label="dat2")
-    plt.title("Part B: 2 Classes, Initial Dataset")
+    plt.title("Perceptron Classification: Training Dataset")
     plt.xlim(-5,10)
     plt.ylim(-4,14)
     plt.legend()
@@ -175,20 +170,29 @@ def perceptron():
     		plt.plot(dat[i][0], dat[i][1],"b.")
     	else:
     		plt.plot(dat[i][0], dat[i][1],"r.")
-    plt.title("Part B: 2 Classes, Sigmoidal Output")
+    plt.title("Perceptron Classification: Trained Output")
     plt.xlim(-5,10)
     plt.ylim(-4,14)
     plt.legend()
 
     fig3 = plt.figure()
+    plt.plot(abs(error_arr1), label="Error")
+    plt.title("Network Percent Error")
+    plt.xlabel("Epoch")
+    plt.ylabel("Error Percent")
+    plt.xlim(-2,epochs)
+    plt.ylim(-2,110)
+    plt.legend()
+
+    fig4 = plt.figure()
     plt.plot(v_dat1.T[0], v_dat1.T[1], "ro", label="dat1")
     plt.plot(v_dat2.T[0], v_dat2.T[1], "bo", label="dat2")
-    plt.title("Part B: 2 Classes, Validation Dataset")
+    plt.title("Perceptron Classification: Validation Dataset")
     plt.xlim(-5,10)
     plt.ylim(-4,14)
     plt.legend()
 
-    fig4 = plt.figure()
+    fig5 = plt.figure()
     plt.plot(v_dat1.T[0], v_dat1.T[1], "ro", label="dat1")
     plt.plot(v_dat2.T[0], v_dat2.T[1], "bo", label="dat2")
     for i in range(len(v_y_hat)):
@@ -196,7 +200,7 @@ def perceptron():
     		plt.plot(v_dat[i][0], v_dat[i][1],"b.")
     	else:
     		plt.plot(v_dat[i][0], v_dat[i][1],"r.")
-    plt.title("Part B: 2 Classes, Sigmoidal Validation Output")
+    plt.title("Perceptron Classification: Validation Output")
     plt.xlim(-5,10)
     plt.ylim(-4,14)
     plt.legend()

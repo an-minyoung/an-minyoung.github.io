@@ -6,8 +6,9 @@ description: Using layered perceptrons to compute logic functions
 ---
 <p>
   <a href=""></a><div class=""></div>
-  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">GitHub</div></a>
   <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/pdf/perceptron.pdf"><div class="color-button">Report</div></a>
+  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/perceptron.py"><div class="color-button">GitHub 1</div></a>
+  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"><div class="color-button">GitHub 2</div></a>
 </p>
 
 ### Emulated Neurons
@@ -99,3 +100,5 @@ Using [perceptron.py](https://github.com/alexanderhay2020/alexanderhay2020.githu
 | Input 4 | 0          | 1          | 1          | 0.917  |
 
 Given an infinite number of iterations the algorithm would converge to either 0 or 1, but in 200 iterations our results are close enough to see a clear distinction.
+
+Applied to a larger dataset

@@ -27,4 +27,4 @@ vendors. A smaller aspect of my role was conducting prior art research and assis
 #### Rehabilitation Institute of Chicago - Research Intern...
 2014
 
-stuff
+I interned at RIC within the Sensory Motor Performance Program. Our project was to create an adaptive wheelchair controller for spinal-cord injury patients using IMUs. Using machine learning techniques we created a controller that was able to calibrate and integrate IMU datastreams, primarily using Matlab. Our experimental results were then presented in an open forum setting.

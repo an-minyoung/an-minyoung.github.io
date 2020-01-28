@@ -107,13 +107,24 @@ Given an infinite number of iterations the algorithm would converge to either 0 
 
 <p>
   <a href=""></a><div class=""></div>
-  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"><div class="color-button">perceptron.py</div></a>
+  <a href="https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py"><div class="color-button">classifier.py</div></a>
 </p>
 
-Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py), linked at the top of this page as "GitHub 2", we can create a linear classifier.
+Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020/alexanderhay2020.github.io/blob/master/assets/py/classifier.py), we can create a linear classifier.
 
 <p>
     <img src="/assets/img/Figure_2-1.png" width="50%;" height="50%;" alt/><img src="/assets/img/Figure_2-2.png" width="50%;" height="50%;" alt/>
     <br>
     <em>Left: Initial 2D dataset, Right: Perceptron classifier results</em>
+</p>
+
+<p>
+    <img src="/assets/img/Figure_2-3.png" width="50%;" height="50%;" alt/>
+    <br>
+    <em>Left: Initial 2D dataset, </em>
+</p>
+<p>
+    <img src="/assets/img/Figure_2-4.png" width="50%;" height="50%;" alt/><img src="/assets/img/Figure_2-5.png" width="50%;" height="50%;" alt/>
+    <br>
+    <em>Left: Initial validation dataset, Right: Perceptron validation classifier results</em>
 </p>

@@ -116,6 +116,11 @@ Applied to a larger dataset, [classifier.py](https://github.com/alexanderhay2020
     <br>
     <em>Left: Initial 2D dataset, Right: Perceptron classifier results</em>
 </p>
+<p>
+    <img src="/assets/img/Figure_2-4.png" width="50%;" height="50%;" alt/><img src="/assets/img/Figure_2-5.png" width="50%;" height="50%;" alt/>
+    <br>
+    <em>Left: Initial validation dataset, Right: Perceptron validation classifier results</em>
+</p>
 
 The graph below shows the network error over 500 iterations. As expected the initial error is very high due to the weights being initially random. The error quicky drops after ~30 iterations, but never quite reaches zero. In this case error is ~4%, reflected in the misclassifed samples in both images on the right.
 
@@ -123,9 +128,4 @@ The graph below shows the network error over 500 iterations. As expected the ini
     <img src="/assets/img/Figure_2-3.png" width="50%;" height="50%;" alt/>
     <br>
     <em>Network error percentage drops after each epoch, indicating a model is being learned</em>
-</p>
-<p>
-    <img src="/assets/img/Figure_2-4.png" width="50%;" height="50%;" alt/><img src="/assets/img/Figure_2-5.png" width="50%;" height="50%;" alt/>
-    <br>
-    <em>Left: Initial validation dataset, Right: Perceptron validation classifier results</em>
 </p>

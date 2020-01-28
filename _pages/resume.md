@@ -16,18 +16,18 @@ title: resume
 
 ### Experience
 #### Pearce Services - Design Engineer...
-2014 - 2019
+#### 2014 - 2019
 
 My main responsibility was designing infrastructure plans for fiber and cable construction projects. Foresight was critical as anything not accounted for would delay the project. I coordinated with the lead engineer, field engineer, and other contractors to move the project forward in a timely but comprehensive manner.
 
 #### Drive Spotter - Product Engineer...
-2015 - 2016
+#### 2015 - 2016
 
 At Drive Spotter I developed a working prototype using computer vision and machine learning tools.
 Because the company was in its infancy I acted as many roles, addressing CEOs, investors, and
 vendors. A smaller aspect of my role was conducting prior art research and assisting in writing, editing, and revising patents and proposals.
 
 #### Rehabilitation Institute of Chicago - Research Intern...
-2014
+#### 2014
 
 I interned at RIC within the Sensory Motor Performance Program. Our project was to create an adaptive wheelchair controller for spinal-cord injury patients using IMUs. Using machine learning techniques we created a controller that was able to calibrate and integrate IMU datastreams, primarily using Matlab. Our experimental results were then presented in an open forum setting.

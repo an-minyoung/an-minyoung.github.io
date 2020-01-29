@@ -17,12 +17,11 @@ For my winter project I wanted to experiment shape memory alloys (SMA). I first 
 
 SMAs operate because of the crystalline structure of the alloy. The actuators used in this project are made with Nitinol, a SMA of equal parts Nickel and Titanium. These alloys have a transition temperature and easily deform when below this temperature. The crystalline structure shifts but does not suffer permanent damage (C->A). Once the wire is heated above the transition temperature the crystals undergo a phase change and revert back to their original structure, with a large force (A->B). When the wire cools again the phase change reverses and the wire can be deformed again (B->C).
 
-<div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/Figure_3-2.jpg">
-</div>
-<div class="col three caption">
-    Diagram showing how SMAs atomic structure deforms
-</div>
+<p>
+    <img src="/assets/img/Figure_3-2.jpg" width="50%;" height="50%;" alt/>
+    <br>
+    <em>Diagram showing how SMAs atomic structure deforms</em>
+</p>
 
 As a wire this deformation manifests as a change of length in the wire. For the actuators to actuate, a current is passed through the wire. The internal resistance of the wire heats it up above its transition temperature, instigating the phase change and *contracts* and creating a pulling force.
 

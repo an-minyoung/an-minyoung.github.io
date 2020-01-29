@@ -28,7 +28,7 @@ As a wire this deformation manifests as a change of length in the wire. For the 
 
 ## The Actuator
 
-For this project I've chosen the Miga T220 SMA linear actuator. Actuation parallels human muscle, where muscles exert a pulling force when activated, just as the nitinol contracts when a current is passed through. The T220 also as onboard on-­‐board MOSFET	switching	and protection	circuit, which cuts	power	to SMA wire when the output stage reached the End-of-Stroke contact.
+For this project I've chosen the Miga T220 SMA linear actuator. Actuation parallels human muscle, where muscles exert a pulling force when activated, just as the nitinol contracts when a current is passed through. The T220 also as onboard MOSFET switching and protection circuit, which cuts power to SMA wire when the output stage reached the End-of-Stroke contact.
 
 <p>
     <img src="/assets/img/Figure_3-3.jpg" width="50%;" height="50%;" alt/>

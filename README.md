@@ -18,7 +18,7 @@ The emphasis is on whitespace, transparency, and academic usage: [theme demo](ht
 Changes made:
 <ul>
   <li>
-  Button feature to the al-folio theme, now al-folio*. Buttons were taken from the [academic-portfolio](https://github.com/ys1998/academic-portfolio) theme. Otherwise the same thing. Check out my [site](https://alexanderhay2020.github.io/) to see the al-folio* theme being used.
+  Button feature to the al-folio theme, now al-folio*. Buttons were taken from the [https://github.com/ys1998/academic-portfolio](academic-portfolio) theme. Otherwise the same thing. Check out [https://alexanderhay2020.github.io/](my) to see the al-folio* theme being used.
   </li><br>
   <li>
   Removed time from the date for posts

@@ -62,9 +62,6 @@ For the presentation at the Museum of Science and Industry, two (2) of the Miga 
 See my [GitHub](https://github.com/alexanderhay2020/499/blob/master/arduino/working_v1/working_v1.ino) page.
 
 ## Discussion
-α model: motor control through changing muscle stiffness
-<br>
-λ-model: emphasizes feedback from stretch reflex
 
 The project as presented demonstrates an α-model method of motor control through changing the Nitinol wire properties. λ-model requires a feedback signal from the muscle spindle, a fiber running the length of the muscle that senses stretch sensory information. A λ-model could be modeled by installing a position sensor on the actuator or a rotary encoder at the joint, sending the muscle property data that the muscle spindle broadcasts. A PID controller could then be implemented to give the actuators a spring-like quality that is seen in muscle fibers<sup>[[3]](https://www.ncbi.nlm.nih.gov/pubmed/8930238)</sup>.
 

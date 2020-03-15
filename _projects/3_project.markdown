@@ -19,9 +19,9 @@ The goal of this project was to explore the use of shape memory alloys to mimic 
 Shape memory alloys (SMA) operate because of the unique crystalline structure of the alloy. The actuators used in this project are made with Nitinol, an SMA with a 1:1 Nickel-Titanium ratio. These alloys have a transition temperature and easily deform when below this temperature. The crystalline structure shifts but does not suffer permanent damage (C->A). Once the wire is heated above the transition temperature the crystals undergo a phase change and revert back to their original structure, with a large force (A->B). When the wire cools again the phase change reverses and the wire can be deformed again (B->C).
 
 <p>
-    <center><img src="/assets/img/Figure_3-2.jpg" width="50%;" height="50%;" alt/></center>
+    <center><img src="/assets/img/Figure_3-2.jpg" width="50%;" height="50%;" alt/>
     <br>
-    <em>Diagram showing how SMAs atomic structure deforms</em>
+    <em>Diagram showing how SMAs atomic structure deforms</em></center>
 </p>
 
 As a wire, this deformation manifests as a change of length in the wire. For the actuators to actuate, a current is passed through the wire. The internal resistance of the wire heats it up above its transition temperature, instigating the phase change and *contraction* and creating a pulling force.
@@ -29,18 +29,21 @@ As a wire, this deformation manifests as a change of length in the wire. For the
 ### Equilibrium Point Control
 Equilibrium point control (EPC) is motor control through changing muscle stiffness. A 'reciprocal command' is sent to shift the equilibrium point, moving the limb. In the λ‐model of motor control, proposed by Feldman<sup>[[1]](https://www.ncbi.nlm.nih.gov/pubmed/15136283?dopt=Abstract)[[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2342993/)</sup>, the reciprocal command, alters the relative activation of agonist and antagonist muscles to produce a shift in the equilibrium between the muscle force and external load. While it has fallen out of vogue in human motor control, this project explores using it as a means of actuation of SMAs.
 
+<p>
+    <center><img src="/assets/img/winter_project/alpha_model.png" width="100%;" height="100%;" alt/>
+    <br>
+    <em>α model: motor control through changing muscle stiffness</em></center>
+</p>
+
 ## Actuator
 
 For this project I've chosen the Miga T220 SMA linear actuator. Actuation parallels human muscle; the Nitinol wire contracts when a current is passed through, just as muscles contract when activated by a neuron. Each actuator has a fan installed to increase how quickly the wire could relax. The T220 also has an onboard MOSFET switching and protection circuit, which cuts power to SMA wire when the output stage reached the End-of-Stroke contact.
-
-
 
 <p>
     <img src="/assets/img/Figure_3-3.jpg" width="50%;" height="50%;" alt/><img src="/assets/img/winter_project/circuit_mosfet.png" width="50%;" height="50%;" alt/>
     <br>
     <em>left: Miga T220 SMA Linear Actuator, right: power protection circuit</em>
 </p>
-
 
 ## Design and Fabrication
 

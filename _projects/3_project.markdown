@@ -44,12 +44,14 @@ Equilibrium point control (EPC) is motor control through changing muscle stiffne
 
 ## Actuator
 
-For this project I've chosen the Miga T220 SMA linear actuator. Actuation parallels human muscle; the Nitinol wire contracts when a current is passed through, just as muscles contract when activated by a neuron. Each actuator has a fan installed to increase how quickly the wire could relax. The T220 also has an onboard MOSFET switching and protection circuit, which cuts power to SMA wire when the output stage reached the End-of-Stroke contact.
+The Miga T220 SMA linear actuator was chosen for this project. Other considerations included servo motors, magnetic actuators, belt/gear mechanical actuators, pneumatic systems, and other SMA actuators. Form, power, and hardware interface were the driving deciding factors. A decision matrix can be found [here](https://docs.google.com/spreadsheets/d/1p3fjq4K-Gl2H-Soi13WV8KOYeHxsrkHLGmXQxgn4opM/edit?usp=sharing)
 
 <p>
-    <img src="/assets/img/Figure_3-3.jpg" width="50%;" height="50%;" alt/><img src="/assets/img/winter_project/circuit_mosfet.png" width="50%;" height="50%;" alt/>
+    <center>
+    <img src="/assets/img/winter_project/miga.jpg" width="70%;" height="70%;" alt/>
     <br>
-    <em>left: Miga T220 SMA Linear Actuator, right: power protection circuit</em>
+    <em>Miga T220 SMA Linear Actuator</em>
+    </center>
 </p>
 
 ## Design and Fabrication
@@ -59,20 +61,29 @@ The project served as a study in rapid prototyping. I used Solidworks for part m
 For the presentation at the Museum of Science and Industry, two (2) of the Miga actuators were removed and the fans repositioned to directly face the actuators. These changes allows faster actuation time at the cost of actuation force.
 
 <p>
-    <img src="/assets/img/winter_project/img01.jpg" width="80%;" height="80%;" alt/>
+    <center><img src="/assets/img/winter_project/assembly.gif" width="50%;" height="50%;" alt/>
     <br>
-    <em>Complete assembly of project</em>
+    <em>Apparatus exploded view</em></center>
 </p>
 
 ## Controller
 
-See my [GitHub](https://github.com/alexanderhay2020/499/blob/master/arduino/working_v1/working_v1.ino) page.
+See my [GitHub](https://github.com/alexanderhay2020/499) page.
 
 ## Discussion
 
 The project as presented demonstrates an α-model method of motor control through changing the Nitinol wire properties. λ-model requires a feedback signal from the muscle spindle, a fiber running the length of the muscle that senses stretch sensory information. A λ-model could be modeled by installing a position sensor on the actuator or a rotary encoder at the joint, sending the muscle property data that the muscle spindle broadcasts. A PID controller could then be implemented to give the actuators a spring-like quality that is seen in muscle fibers<sup>[[3]](https://www.ncbi.nlm.nih.gov/pubmed/8930238)</sup>.
 
 Future work would also involve building out the "forearm". For now the apparatus actuates a collar with a Base-15 u channel, seen with a bolt in place in the demo video.
+
+<p>
+  <center>
+    <img src="/assets/img/winter_project/img01.jpg" width="80%;" height="80%;" alt/>
+    <br>
+    <em>Complete assembly of project</em>
+  </center>
+</p>
+
 
 ## References
 

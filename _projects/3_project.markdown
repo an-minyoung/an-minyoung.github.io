@@ -8,10 +8,17 @@ img: /assets/img/Figure_3-3.jpg
 <p>
   <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/499"><div class="color-button">GitHub</div></a>
-  <a href=""><div class="color-button">YouTube</div></a>
+  <a href="https://youtu.be/f2VmKv2i89Y"><div class="color-button">YouTube</div></a>
 </p>
 
 The goal of this project was to explore the use of shape memory alloys to mimic human movement using equilibrium point control.
+
+<p>
+  <center>
+    <a href="https://youtu.be/f2VmKv2i89Y"><img src="/assets/img/winter_project/thumb.png" width="95%;" height="95%;"></a>
+    <em> Demonstration video</em>
+  </center>
+</p>
 
 ## Introduction
 
@@ -49,12 +56,12 @@ For this project I've chosen the Miga T220 SMA linear actuator. Actuation parall
 
 The project served as a study in rapid prototyping. I used Solidworks for part models, assembly, and drawings. The frame was built from acrylic cut from a laser cutter, special screws and couplings were printed using the Ultimaker3 3D printer. Plastic hardware bits are required for stacking the actuators, as the mounting holes are part of the circuit.
 
-For the presentation at the Museum of Science and Industry, two (2) of the Miga actuators were removed and the fans repositioned to be perpendicular to the wire. These changes allows faster actuation time at the cost of actuation force.
+For the presentation at the Museum of Science and Industry, two (2) of the Miga actuators were removed and the fans repositioned to directly face the actuators. These changes allows faster actuation time at the cost of actuation force.
 
 <p>
-    <img src="/assets/img/Figure_3-1.jpg" width="50%;" height="50%;" alt/>
+    <img src="/assets/img/winter_project/img01.jpg" width="80%;" height="80%;" alt/>
     <br>
-    <em>Design iterations of the actuator mount</em>
+    <em>Complete assembly of project</em>
 </p>
 
 ## Controller
@@ -64,6 +71,8 @@ See my [GitHub](https://github.com/alexanderhay2020/499/blob/master/arduino/work
 ## Discussion
 
 The project as presented demonstrates an α-model method of motor control through changing the Nitinol wire properties. λ-model requires a feedback signal from the muscle spindle, a fiber running the length of the muscle that senses stretch sensory information. A λ-model could be modeled by installing a position sensor on the actuator or a rotary encoder at the joint, sending the muscle property data that the muscle spindle broadcasts. A PID controller could then be implemented to give the actuators a spring-like quality that is seen in muscle fibers<sup>[[3]](https://www.ncbi.nlm.nih.gov/pubmed/8930238)</sup>.
+
+Future work would also involve building out the "forearm". For now the apparatus actuates a collar with a Base-15 u channel, seen with a bolt in place in the demo video.
 
 ## References
 

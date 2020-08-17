@@ -6,8 +6,8 @@ title: resume
 ---
 ### Tools
 
-* Coding: Python, C, C++
-* Design: AutoCAD, Solidworks, Inventor, 3D-Printing
+* Coding: Python, MATLAB, C, HTML/Javascript
+* Design: Solidworks, 3D-Printing, AutoCAD, Inventor
 * Programs: Linux, Windows, NDS
 
 ### Experience
@@ -16,7 +16,7 @@ title: resume
   <a href="/assets/pdf/resume.pdf"><div class="color-button">Resume</div></a>
 </p>
 #### Pearce Services - Design Engineer...
-#### <su>2014 - 2019</su>
+#### <su>2016 - 2019</su>
 
 My main responsibility was designing infrastructure plans for fiber and cable construction projects. Foresight was critical as anything not accounted for would delay the project. I coordinated with the lead engineer, field engineer, and other contractors to move the project forward in a timely but comprehensive manner.
 

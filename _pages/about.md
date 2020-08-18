@@ -8,12 +8,12 @@ profile:
   align: right
   image: 04.png
   address: >
-    <p> * * * Chicago, IL * * * </p>
+    <p style="text-align:center"> * * * * Chicago, IL * * * * </p>
 
 news: true
 social: true
 ---
-
+<br>
 My name is Alex Hay. I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics, learning new ways of augmenting human ability, and making new methodologies accessible.
 
 I received my BS in mechanical engineering in 2014 at Iowa State University. Upon graduating I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) before moving on to the startup world. In 2019, I was accepted into the Masters of Science in Robotics program at Northwestern University.

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Shape memory alloy actuation through equilibrium point control
-description: Winter Project
+title: Shape Memory Alloy Actuation Through Equilibrium Point Control
+description: Winter Project - 2019
 img: /assets/img/Figure_3-3.jpg
 ---
 

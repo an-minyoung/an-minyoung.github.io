@@ -1,7 +1,7 @@
 ---
 layout: page
-title: MRI-compatible actuator for artificial tactile stimulation
-description: 2020 Project
+title: MRI-compatible Actuator for Artificial Tactile Stimulation
+description: Spring/Summer Project - 2020
 img: /assets/img/pneumatic_actuator/fig_01.png
 ---
 

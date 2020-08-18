@@ -7,7 +7,7 @@ img: /assets/img/pneumatic_actuator/fig_01.png
 
 <p>
   <a href=""></a><div class=""></div>
-  <!-- <a href="https://github.com/alexanderhay2020/499"><div class="color-button">GitHub</div></a> -->
+  <a href="https://github.com/alexanderhay2020/499_pneumatic"><div class="color-button">GitHub</div></a>
   <!-- <a href="https://youtu.be/f2VmKv2i89Y"><div class="color-button">YouTube</div></a> -->
 </p>
 
@@ -20,48 +20,68 @@ Working with Dr. Netta Gurari in the Robotics and Sensorimotor Control Lab, our 
   </center>
 </p> -->
 
+------
 ## Introduction
 
+
 ### Stroke Overview
-Strokes are caused by a disruption of blood flow to the brain, either by a clot in the blood vessel (Ischemic Stroke) or by a rupture (Hemorrhagic Stroke). Without oxygen or nutrients supplied by the blood stream cells begin to die. Any function lost or impairs is an indicator of where this damage occurs. The scope of the damage is in part determined by the arterial network; neighboring branches of blood vessels may still be able to serve the affected area, limiting the potential damage. Everyone's brain is different, the same sort of stroke event can produce different effects between individuals.
+Strokes are caused by a disruption of blood flow to the brain, either by a clot in the blood vessel (ischemic stroke) or by a rupture (hemorrhagic stroke). Without oxygen or nutrients supplied by the blood stream cells begin to die. Any function lost or impairs is an indicator of where this damage occurs. The scope of the damage is in part determined by the arterial network; neighboring branches of blood vessels may still be able to serve the affected area, limiting the potential damage. Everyone's brain is different, the same sort of stroke event can produce different effects between individuals.
 
-<!-- <p>
-    <center><img src="/assets/img/Figure_3-2.jpg" width="50%;" height="50%;" alt/>
+<p>
+    <center><img src="/assets/img/pneumatic_actuator/ct.png" alt/>
     <br>
-    <em>Figure 1: MRI image shows affected tissue in the parietal lobe. This individual experienced stuttering in their speech following the stroke</em></center>
-</p> -->
-
+    <em>Figure 1: CT scan of individual who expereinced stuttering as the result of a stroke in the left parietal lobe. Source: <a href="https://www.researchgate.net/figure/CT-scan-of-brain-showed-a-cortical-infarct-on-left-parietal-lobe-involving-Brodmann-area_fig1_7678181">Sahin et al. 2005</a></em></center>
+</p>
 
 ### Somatosensory Overview
 The somatosenory system is the mechanism by which the body interprets touch, pressure, temperature, proprioception, and pain, through a route called the Dorsal Column-Medial Lemniscal pathway. Receptors in the body transduce sensory information and send it upstream to the Dorsal Root Ganglion in the spinal column. It travels up the spine, crosses in the medulla, passes through the midbrain, and finally terminates at the somatosensory cortex. The crossing in the medulla is why a stroke in the right hemisphere of the brain affects the left side of the body, and vice versa.
 
-<!-- <p>
-    <center><img src="/assets/img/winter_project/alpha_model.png" width="100%;" height="100%;" alt/>
+<p>
+    <center><img src="/assets/img/pneumatic_actuator/dcml.png" width="80%;" height="100%;" alt/>
     <br>
-    <em>Figure 2: The Dorsal Column-Medial Lemniscal pathway</em></center>
-</p> -->
+    <em>Figure 2: The dorsal column-medial lemniscus (DCML) pathway</em></center>
+</p>
 
+
+------
 ## Apparatus
+
+### Pneumatic Actuator
 
 To create the sensory signal I developed a small piston that presses on the finger. The piston is 3D printed using PLA polymer and is attached to an air compressor for pneumatic action. It's controlled using a PIC32 microcontroller and a pressure sensor. Two variations of the piston were developed; a pneumatic return (how the piston resets itself) and a spring return. More information about the design can be found [here](https://github.com/alexanderhay2020/499/tree/master/summer_project/design).
 
-<!-- <p>
-    <center><img src="/assets/img/winter_project/assembly.gif" width="50%;" height="50%;" alt/>
+<p>
+    <center><img src="/assets/img/pneumatic_actuator/cutaway.png" width="80%;" height="50%;" alt/>
     <br>
-    <em>Apparatus exploded view</em></center>
-</p> -->
+    <em>Figure 3: Cross section of the pneumatic actuator</em></center>
+</p>
 
-## Controller
+<br>
 
-See my [GitHub](https://github.com/alexanderhay2020/499/summer_project) page.
+### Control
 
+Air is directed in and out of the piston using a solenoid controlled by a PIC32 microcontroller. The solenoid has three (3) positions; allowing airflow to the cylinder, allowing airflow from the cylinder, and a neutral position that restricts all airflow.
+
+
+<p>
+  <center>
+    <a href="https://www.lunchboxsessions.com/materials/flow-directional-control-valves/directional-control-valve-simulation"><img src="/assets/img/pneumatic_actuator/left-open.gif" width="40%;" height="100%;" style="margin-right:50px;"></a>
+    <a href="https://www.lunchboxsessions.com/materials/flow-directional-control-valves/directional-control-valve-simulation"><img src="/assets/img/pneumatic_actuator/right-open.gif" width="40%;" height="100%;"></a>
+    <br>
+    <em> Solenoid directing airflow. Graphic source: lunchboxsessions.com</em>
+  </center>
+</p>
+
+The PIC32 is a 32 bit, general purpose microcontroller that also interfaces with the pressure sensor. It acts as the brains of the system, listening to the pressure sensor and actuating the piston by directing the solenoid.
+
+------
 ## Discussion & Future Work
 
 During development I made it a priority that the device was MRI-compatible, which influenced many of the design considerations and challenges. The decision to use a pneumatic system made it so there is no interference from the apparatus during the MR imaging process, however, air is a compressible fluid and makes it difficult to control. A hydraulic system was considered to address that but was never implemented due to concerns about leakage.
 
 The control loop as it is currently only uses a pressure sensor to infer force applied by the piston, and is only feed-forward. To close the control loop an optical linear encoder using fiber optic cables was considered, but ultimately shelved due to time constraints.
 
-Knowing if/when the piston engages with the finger is also important. The PIC32 microcontroller has a peripheral called the Charge Time Measurement Unit (CTMU), allowing for capacitive touch sensing. The surface the fingertip engages with must be conductive (and MRI-compatible, ie. aluminum foil) for it to work. Studies examining the heating effects of MRI scanning have shown that no significant heating occurs with nonferromagnetic materials.<sup>['[1]'](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910070302?sid=nlm%3Apubmed)</sup> This means the individual won't risk burning their finger. And because the peripheral is non-moving, there's no risk of interference during imaging.
+Knowing if/when the piston engages with the finger is also important. The PIC32 microcontroller has a peripheral called the Charge Time Measurement Unit (CTMU), allowing for capacitive touch sensing. The surface the fingertip engages with must be conductive (and MRI-compatible, ie. aluminum foil) for it to work. Studies examining the heating effects of MRI scanning have shown that no significant heating occurs with nonferromagnetic materials.<sup>[[1]](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910070302?sid=nlm%3Apubmed)</sup> This means the individual won't risk burning their finger. And because the peripheral is non-moving, there's no risk of interference during imaging.
 
 <!-- <p>
   <center>
@@ -71,6 +91,10 @@ Knowing if/when the piston engages with the finger is also important. The PIC32 
   </center>
 </p> -->
 
+------
+## More Information
+
+More information and details specific to the project, please see my Github link [here](https://github.com/alexanderhay2020/499_pneumatic).
 
 ## References
 

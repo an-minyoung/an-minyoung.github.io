@@ -15,10 +15,10 @@ description: Using PCA to determine number of presynaptic inputs of a cell
 Neurons generally have four functional regions; input, integration, conduction, and output. Inputs are generated current flowing in and out of the cell. Inputs are aggregated, and if triggered, generate an action potential and releasing neurotransmitters. In this exercise I examine the intracellular activity of a cell and determine how many presynaptic cells are providing an input, as well as the activity level of each input.
 
 <div class="img_row">
-    <img class="col two" src="/assets/img/pca/cells.png" height="50%">
+  <img class="col three" src="/assets/img/pca/cells.png">
 </div>
 <div class="col three caption">
-    The color perceived is the sum of each cone response
+  Figure 1: General functional regions of the neuron
 </div>
 
 ### Radial Basis Functions

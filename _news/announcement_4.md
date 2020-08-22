@@ -59,7 +59,7 @@ From there we can run PCA on the data, seen in Figure 4. Three PCs stand out in 
 </div>
 
 <div class="col three caption">
-  Figure 5: Left, signal response of principal components 1-3; rught, histogram scores
+  Figure 5: Left, signal response of principal components 1-3; right, histogram scores
 </div>
 
 ### K-means Classificaiton and Event Identification

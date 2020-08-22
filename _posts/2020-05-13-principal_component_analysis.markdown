@@ -15,66 +15,61 @@ description: Using PCA to determine number of presynaptic inputs of a cell
 Neurons generally have four functional regions; input, integration, conduction, and output. Inputs are generated current flowing in and out of the cell. Inputs are aggregated, and if triggered, generate an action potential and releasing neurotransmitters. In this exercise I examine the intracellular activity of a cell and determine how many presynaptic cells are providing an input, as well as the activity level of each input.
 
 <div class="img_row">
-  <img class="col three" src="/assets/img/pca/cells.png">
+  <img class="col three" src="/assets/img/pca/fig_01.png">
 </div>
 <div class="col three caption">
   Figure 1: General functional regions of the neuron
 </div>
 
-### Radial Basis Functions
-A Radial Basis Function (RBFs) is a function whose value depends the distance between a query point and a fixed point. For this exercise I used the Gaussian Function:
+### Initial Data
 
-
-$$
-h(x)=exp(-\frac{(x-c^2)}{r^2})
-$$
-
-
-* *x* is the query point
-* *c* is some fixed point, 0 if distance is measured from origin
-* *h(x)* is the RBF
-
-By using multiple RBFs you can approximate a function. By multiplying the RBF by some weight, summing a network of RBFs can approximate a function:
-
-$$
-f(x) = \sum_{j=1}^{m}  w_j h_j(x)
-$$
-
-* *h(x)* is the RBF
-* *w* is the weight for the RBF
-* *j* in the index for *m* samples of x
-
-The weight vector can be found using linear regression, ultimately leading to this equation:
-
-$$
- \overrightarrow{w} = (H^TH)^{-1}H^T\overrightarrow{y}
-$$
-
-* *H* is the *design matrix* of *h(x)*, or a *nxm* matrix of *n* samples and *m* RBFs
-* *y* is f(x) vectorized
-
-In this exercise we have the following dataset:
-* *x* is drawn from a uniform random distribution, from *-10 < n < 10; n=1,000*
-* *y = 2x + e*;  e is a normally distributed noise vector, $μ = 1, σ = 0$
-* Use 48 RBFs, between -12 and 12 @ every 0.5 along the x axis
-
-[Fig. 1](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_1.png) - Dataset visualized
-
-[Fig. 2](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_2.png) - 48 RBFs plotted
-
-[Fig. 3](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_3.png) - Function approximation
-
-[Fig. 4](https://alexanderhay2020.github.io/alexanderhay2020.github.io//assets/img/Figure_4.png) - Error analysis
-
+To visualize the data I plotted it as a heat map. The left image shows all of the data, the right image displays fewer samples, highlighting the different inputs the cell is receiving.
 
 <div class="img_row">
-    <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_1.png">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_2.png">
+  <img class="col three" src="/assets/img/pca/fig_02.png">
 </div>
+<div class="col three caption">
+  Figure 2: left, all of the sample data plotted; right, samples showing different responses
+</div>
+
+The data is a series of voltage measurements over time; if we look at a covariance matrix (Figure 3) it would be able to show us how the voltage measured at each time point vary together.
 
 <div class="img_row">
-    <img class="col one first" src="{{ site.baseurl }}/assets/img/Figure_3.png">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/Figure_4.png">
+  <img class="col three" src="/assets/img/pca/fig_03.png">
+</div>
+<div class="col three caption">
+  Figure 3: Covariance matrix of the cell voltage data
 </div>
 
-Modeling photoreceptor response provides insight to how information is gathered and processed at the cellular level. It's the network of these cone cells that provide the stimulus we interpret as color.
+
+### Principal Component Analysis (PCA)
+
+From there we can run PCA on the data, seen in Figure 4. Three PCs stand out in that they explain more fractional variance than the other PCs, but ultimately we would need hundreds to explain all of the data. By plotting those three principal components we can clearly see three signal responses (Figure 5, left). Looking at the histogram (Figure 5, right) confirms that the 4th PC has a gaussian centered at 0, a strong indicator of noise.
+
+<div class="img_row">
+  <img class="col" src="/assets/img/pca/fig_04.png">
+</div>
+<div class="col three caption">
+  Figure 4: Principal components plotted as percent of variance explained
+</div>
+
+<div class="img_row" style="margin-right:1.5rem; margin-left:1.5rem;" >
+  <img class="col two" style="float:left; padding-right: 1rem;" src="/assets/img/pca/fig_05_l.png">
+  <img class="col two" style="float:right; padding-left: 1rem;" src="/assets/img/pca/fig_05_r.png">
+</div>
+
+<div class="col three caption">
+  Figure 5: Left, signal response of principal components 1-3; rught, histogram scores
+</div>
+
+### K-means Classificaiton and Event Identification
+
+Now that we have a waveform with which to use, we can use a classifier (in this exercise I use K-means classification in MATLAb) to comb through the data and 'classify' the inputs based on the PCA, counting each time a synapse event occurs. In this example each event occured 587, 108, and 127 times respectively.
+
+<!-- <div class="img_row" > -->
+  <img class="col three" src="/assets/img/pca/fig_06.png">
+<!-- </div> -->
+
+<div class="col three caption">
+  Figure 6: Results of K-means classification
+</div>

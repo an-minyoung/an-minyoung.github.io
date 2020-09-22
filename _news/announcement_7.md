@@ -84,8 +84,6 @@ We can also look at the nearest neighbor of each cell (see Figure 6).
 
 So the size of the cells aren't interesting, but what about the spatial distribution of the cells? Using the data provided by the image, we can calculate the coefficient of variation:
 
-<br>
-
 μ = 21.0440
 
 σ = 5.3968

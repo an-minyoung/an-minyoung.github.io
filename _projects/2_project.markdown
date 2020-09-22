@@ -12,7 +12,6 @@ img: /assets/img/terminator.gif
 </p>
 
 
-
 The goal for the project was to use Baxter to recognize a nerf gun, pick it up and fire it at a coffee mug. At each step Baxter asks the user for confirmation before moving to the next sequence in the task.<br>
 
 

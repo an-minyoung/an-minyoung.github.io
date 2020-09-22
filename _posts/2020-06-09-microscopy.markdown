@@ -111,4 +111,8 @@ $$
 CoV = \lambda^{-1/2} = 0.22
 $$
 
+$$
+\Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
+$$
+
 A Poisson distribution assumes that cells are “blind” to each other’s positions as they develop and can't occupy the same space. The fact that these coefficients are close infers that these SACs are also blind as they develop.

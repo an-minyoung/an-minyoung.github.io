@@ -65,7 +65,7 @@ $$
 $$
 <br>
 
-* *σ'* is sithe sigmoid derivative when given σ as above
+* *σ'* is the sigmoid derivative when given σ as above
 
 $$
 adjustment = \epsilon*\sigma'

@@ -86,24 +86,24 @@ So the size of the cells aren't interesting, but what about the spatial distribu
 
 <br>
 $$
-\mu = 21.0440
+μ = 21.0440
 $$
 <br>
 $$
-\sigma = 5.3968
+σ = 5.3968
 $$
 <br>
 <br>
 $$
-CoV = \sigma/\mu = 0.26
+CoV = σ/μ = 0.26
 $$
 
 
-Defining $$\lambda$$ as the average distance of the nearest neighbor, the Poisson coefficient of variation is:
+Defining λ as the average distance of the nearest neighbor, the Poisson coefficient of variation is:
 <br>
 <br>
 $$
-CoV = \lambda^{-1/2} = 0.22
+CoV = λ^{-1/2} = 0.22
 $$
 
 A Poisson distribution assumes that cells are “blind” to each other’s positions as they develop and can't occupy the same space. The fact that these coefficients are close infers that these SACs are also blind as they develop.

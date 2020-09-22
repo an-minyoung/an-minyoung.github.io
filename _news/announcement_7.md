@@ -5,11 +5,6 @@ date:   2020-06-09
 description: Using FIJI/ImageJ to analyze cell development
 ---
 
-<p>
-  <a href=""></a><div class=""></div>
-  <a href="https://github.com/alexanderhay2020/408/blob/master/hw/hw5/homework5.m"><div class="color-button">GitHub</div></a>
-</p>
-
 ### FIJI
 
 [FIJI](https://imagej.net/Fiji) is an open source image analysis tool for the scientific community. This post demos how to use some of the tools FIJI has, including data collection techniques.
@@ -102,6 +97,7 @@ $$
 $$
 CoV = \sigma/\mu = 0.26
 $$
+
 
 
 Defining $$\lambda$$ as the average distance of the nearest neighbor, the Poisson coefficient of variation is:

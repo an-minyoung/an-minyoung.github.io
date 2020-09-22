@@ -5,11 +5,6 @@ date:   2020-06-09
 description: Using FIJI/ImageJ to analyze cell development
 ---
 
-<p>
-  <a href=""></a><div class=""></div>
-  <a href="https://github.com/alexanderhay2020/408/blob/master/hw/hw5/homework5.m"><div class="color-button">GitHub</div></a>
-</p>
-
 ### FIJI
 
 [FIJI](https://imagej.net/Fiji) is an open source image analysis tool for the scientific community. This post demos how to use some of the tools FIJI has, including data collection techniques.
@@ -109,10 +104,6 @@ Defining $$\lambda$$ as the average distance of the nearest neighbor, the Poisso
 <br>
 $$
 CoV = \lambda^{-1/2} = 0.22
-$$
-
-$$
-\Sigma (x_iw_i ) = x_1w_1 + x_2 w_2 + ... + x_nw_n
 $$
 
 A Poisson distribution assumes that cells are “blind” to each other’s positions as they develop and can't occupy the same space. The fact that these coefficients are close infers that these SACs are also blind as they develop.

@@ -9,6 +9,11 @@ img: /assets/img/pneumatic_actuator/fig_01.png
   <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/499_pneumatic"><div class="color-button">GitHub</div></a>
   <a href="https://youtu.be/s4PYeK4FzfA"><div class="color-button">YouTube</div></a>
+  <!-- manual link -->
+  <a href="https://docs.google.com/document/d/1iMdl5hpP_emYXVEchicDH41gPpMzWWeitnvOTYf4hh8/edit?usp=sharing"><div class="color-button">Manual</div></a>
+  <!-- Solidworks link -->
+  <a href="https://drive.google.com/drive/folders/13laoiJDyfBOlWCCcYVfk1w05I2iibtdy?usp=sharing"><div class="color-button">Solidworks</div></a>
+
 </p>
 
 Working with Dr. Netta Gurari in the Robotics and Sensorimotor Control Lab, our goal is to create and trace a sensory percept through the brain using an artificial stimulus and fMRI.

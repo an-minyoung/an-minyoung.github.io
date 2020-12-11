@@ -9,11 +9,8 @@ img: /assets/img/pneumatic_actuator/fig_01.png
   <a href=""></a><div class=""></div>
   <a href="https://github.com/alexanderhay2020/499_pneumatic"><div class="color-button">GitHub</div></a>
   <a href="https://youtu.be/s4PYeK4FzfA"><div class="color-button">YouTube</div></a>
-  <!-- manual link -->
-  <a href="https://docs.google.com/document/d/1iMdl5hpP_emYXVEchicDH41gPpMzWWeitnvOTYf4hh8/edit?usp=sharing"><div class="color-button">Manual</div></a>
-  <!-- Solidworks link -->
+  <a href="/assets/pdf/manual.pdf"><div class="color-button">Manual</div></a>
   <a href="https://drive.google.com/drive/folders/13laoiJDyfBOlWCCcYVfk1w05I2iibtdy?usp=sharing"><div class="color-button">Solidworks</div></a>
-
 </p>
 
 Working with Dr. Netta Gurari in the Robotics and Sensorimotor Control Lab, our goal is to create and trace a sensory percept through the brain using an artificial stimulus and fMRI.
@@ -110,6 +107,8 @@ That said, leakage still proved to be a nuisance throughout the project. Pistons
 The control loop has two pressure sensors and one touch sensor. An optical linear encoder using fiber optic cables was considered, which would've provided more certain feedback of the piston, but ultimately was shelved due to time constraints.
 
 Future work with this project will primarily focus on characterization of the actuator, as well as making each element more robust and providing the framework for which development can continue. The two largest lessons were in time management, setting realistic expectations and goals, and project management, learning how to juggle multiple facets of a project and navigating the way forward.
+
+Knowing if/when the piston engages with the finger is also important. The controller currently takes advantage of the CTMU module on the PIC32. For it to work, the surface that the fingertip engages with must be conductive (and MRI-compatible, ie. aluminum foil) for it to work. Studies examining the heating effects of MRI scanning have shown that no significant heating occurs with nonferromagnetic materials.<sup>[[2]](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910070302?sid=nlm%3Apubmed)</sup> This means the individual won't risk burning their finger. And because the peripheral is non-moving, there's no risk of interference during imaging<sup>[[3]](https://pubmed.ncbi.nlm.nih.gov/18982643/)</sup>.
 
 ## More Information
 

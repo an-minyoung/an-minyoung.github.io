@@ -64,9 +64,7 @@ From there we can run PCA on the data, seen in Figure 4. Three PCs stand out in 
 
 ### K-means Classification and Event Identification
 
-Now that we have a waveform with which to use, we can use a classifier (in this exercise I use K-means classification in MATLAb) to comb through the data and 'classify' the inputs based on the PCA, counting each time a synapse event occurs. In this example each event occured 587, 108, and 127 times respectively.
-
-Note: this glosses over what K-means does behind the scenes, which can be its own post. This focuses more on the process of using principal component analysis in MATLAB.
+Now that we have a waveform with which to use, we can use a classifier. In this exercise I use the K-means tool in MATLAB to comb through the data and 'classify' the inputs based on the PCA, counting each time a synapse event occurs. In this example each event occurred 587, 108, and 127 times respectively. There's a number of guides and videos on how K-means works.
 
 <!-- <div class="img_row" > -->
   <img class="col three" src="/assets/img/pca/fig_06.png">

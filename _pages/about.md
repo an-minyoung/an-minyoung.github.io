@@ -2,23 +2,21 @@
 layout: about
 permalink: /
 title: <strong>Alex Hay</strong>
-description: MS Student of Robotics 2020 | Northwestern University
+description: MS Robotics 2020 | Northwestern University
 
 profile:
   align: right
   image: 04.png
-  address: >
-    <p style="text-align:center"> * * * * Chicago, IL * * * * </p>
-
+  address:
 news: true
 social: true
 ---
 <br>
 My name is Alex Hay. I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics, learning new ways of augmenting human ability, and making new methodologies accessible.
 
-I received my BS in mechanical engineering in 2014 at Iowa State University. Upon graduating I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) before moving on to the startup world. In 2019, I was accepted into the Masters of Science in Robotics program at Northwestern University.
+I received my BS in mechanical engineering in 2014 at Iowa State University. I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) then moved on to the start-up world developing computer vision technologies. In 2019, I was accepted into the Masters of Science in Robotics program at Northwestern University.
 
-In the wake of trauma the body may find it difficult to continue on as usual, causing disability or impairment that may be difficult or impossible to overcome. My professional goal is to help build systems that interact with the body to improve function, strength, and ability. By understanding how the body's underlying systems operates and communicate, we can build prosthetics that interact with the body in a much more natural way.
+In the wake of trauma the body may find it difficult to continue on as usual, causing disability or impairment that may be difficult or impossible to overcome. My professional goal is to help build systems that interact with the body to improve function, strength, and ability. By understanding how the body's underlying systems operates and communicate, we can build devices that interact with the body in a much more natural way.
 
 <!-- By watching how mother nature overcomes her challenges, we can incorporate those lessons into engineering design. When we apply those naturally inspired systems, not only do we learn more about our own world, but we develop a deeper respect for it. -->
 

@@ -18,16 +18,27 @@ title: resume
 #### Pearce Services - Design Engineer...
 #### <su>2016 - 2019</su>
 
-My main responsibility was designing infrastructure plans for fiber and cable construction projects. Foresight was critical as anything not accounted for would delay the project. I coordinated with the lead engineer, field engineer, and other contractors to move the project forward in a timely but comprehensive manner.
+● Facilitated infrastructure plans for major metro ISPs and carriers
+● Scope of projects ranged from small businesses to residential communities
+● Budgeted construction and labor costs, dispatching engineers on site when necessary
 
 #### Drive Spotter - Product Engineer...
 #### <su>2015 - 2016</su>
 
-At Drive Spotter I developed a working prototype using computer vision and machine learning tools.
-Because the company was in its infancy I acted as many roles, addressing CEOs, investors, and
-vendors. A smaller aspect of my role was conducting prior art research and assisting in writing, editing, and revising patents and proposals.
+● Developed a working prototype construction zone detector using OpenCV
+● Conducted prior art research; assisted in writing, editing, and revising patents and proposals
+● Traveled frequently, giving demonstrations to investors and securing accounts
+
+#### Medline Industries - R&D Material Technician...
+#### <su>2014 - 2015</su>
+
+● Conducted tests evaluating material properties of medical products for manufacturers
+● Constructed new testing procedures in compliance with relevant ISO regulations
+● Quantified experimental data in the final report of quality assurance investigation
 
 #### Rehabilitation Institute of Chicago - Research Intern...
 #### <su>2014</su>
 
-I interned at RIC within the Sensory Motor Performance Program. Our project was to create an adaptive wheelchair controller for spinal-cord injury patients using IMUs. Using machine learning techniques we created a controller that was able to calibrate and integrate IMU datastreams, primarily using Matlab. Our experimental results were then presented in an open forum setting.
+● Worked in a small team to develop a novel adaptive wheelchair controller for spinal cord injury patients
+● Utilized ML algorithms to optimize sensor data with user ability
+● Volunteered for BMES conference

@@ -2,21 +2,23 @@
 layout: about
 permalink: /
 title: <strong>Alex Hay</strong>
-description: MS Robotics 2020 | Northwestern University
+description: Robotics | Neuroscience
 
 profile:
   align: right
-  image: 04.png
-  address:
+  image: Alex_Hay.jpg
+  address: Montreal, Quebec
 news: true
 social: true
 ---
 <br>
-My name is Alex Hay. I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics, learning new ways of augmenting human ability, and making new methodologies accessible.
+My name is Alex Hay, in April 2021 I joined the University of Montreal as a research associate in the Department of Neuroscience. We train monkeys to perform specific tasks while we read from an electrode implanted in their brain. Montreal sits at an intersection between neurosceince and AI, progress is a partnership.
 
-I received my BS in mechanical engineering in 2014 at Iowa State University. I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) then moved on to the start-up world developing computer vision technologies. In 2019, I was accepted into the Masters of Science in Robotics program at Northwestern University.
+<!-- I'm currently a masters student of robotics at Northwestern University in Chicago. My passion lies in prosthetics, learning new ways of augmenting human ability, and making new methodologies accessible.
 
-In the wake of trauma the body may find it difficult to continue on as usual, causing disability or impairment that may be difficult or impossible to overcome. My professional goal is to help build systems that interact with the body to improve function, strength, and ability. By understanding how the body's underlying systems operates and communicate, we can build devices that interact with the body in a much more natural way.
+I received my BS in mechanical engineering in 2014 at Iowa State University. I completed my internship at the Rehabilitation Institute of Chicago (rebuilt as the [Shirley Ryan Ability Lab](https://www.sralab.org/)) then moved on to the start-up world developing computer vision technologies. In 2019, I was accepted into the Masters of Science in Robotics program at Northwestern University. -->
+
+Disability or impairment in the wake of trauma may be difficult or impossible for the body to overcome. My professional goal is to help build systems that interact with the body to improve function, strength, and ability. By understanding how the body's underlying systems operates and communicate, we can build devices that interact with the body in a much more natural way.
 
 <!-- By watching how mother nature overcomes her challenges, we can incorporate those lessons into engineering design. When we apply those naturally inspired systems, not only do we learn more about our own world, but we develop a deeper respect for it. -->
 

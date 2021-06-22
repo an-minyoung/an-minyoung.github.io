@@ -2,7 +2,6 @@
 layout: page
 title: Environment Sensor with Display
 description: An Arduino Project
-img: /assets/img/enviro_sensor/screen.jpg
 date: 2021-06-21
 ---
 

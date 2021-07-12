@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Alex Hay
-email: alexanderhay2020@u.northwestern.edu
+email: alexander.hay@umontreal.ca
 description: > # this means to ignore newlines until "url:"
   Portfolio for Alex Hay | MS in Robotics
 footer_text: >
@@ -11,7 +11,7 @@ footer_text: >
 
 url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: Sept, 2020 # leave blank if you don't want to display last updated
+last_updated: Jul, 2021 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Open Graph
@@ -39,7 +39,7 @@ phone: 515-229-2192
 contact_note: >
   Email, call, or let's set up a meeting
   <br>
-  alexanderhay2020@northwestern.edu
+  alexander.hay@umontreal.ca
   <br>
   (515) 229-2192
 

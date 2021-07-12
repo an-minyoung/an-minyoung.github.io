@@ -25,7 +25,7 @@ As you can see navigation stops once this is presented. If the browser takes awh
 If we open up the console we can look at what is creating the lock.
 
 <div class="img_row">
-  <img class="col one" src="/assets/img/glassdoor/highlight.gif">
+  <img class="col three" src="/assets/img/glassdoor/highlight.gif">
 </div>
 <div class="col three caption">
   Figure 2: Identifying the lock elements
@@ -36,7 +36,7 @@ If we open up the console we can look at what is creating the lock.
 Hovering over the items we see "hardsellContainer", which sounds exactly like something we're looking for, containing the display lock elements. One of the elements is the container for the social media login options. Another element creates the shadowing effect, establishing the webpage as a background for the social media links. Because of the hierarchal nature of elements, deleting the parent element deletes any children elements.
 
 <div class="img_row">
-  <img class="col one" src="/assets/img/glassdoor/delete.gif">
+  <img class="col three" src="/assets/img/glassdoor/delete.gif">
 </div>
 <div class="col three caption">
   Figure 3: Deleting the lock elements
@@ -45,7 +45,7 @@ Hovering over the items we see "hardsellContainer", which sounds exactly like so
 Deleting the lock elements allows us to see the company's information but still prevents us from scrolling. There's a few mechanisms that would prevent a page from scrolling, but a common one is the `overflow` property. If we inspect the main body of the page we see that the `overflow` property is set to `hidden`. Unchecking it should allow the user to scroll at will. If that's not the case, check the other elements for the `overflow` property to see if it was redefined.
 
 <div class="img_row">
-  <img class="col one" src="/assets/img/glassdoor/walmart.gif">
+  <img class="col three" src="/assets/img/glassdoor/walmart.gif">
 </div>
 <div class="col three caption">
   Figure 4: Entire unlock process

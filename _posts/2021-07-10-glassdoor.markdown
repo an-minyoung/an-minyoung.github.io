@@ -1,8 +1,8 @@
 ---
 layout: post
-title: JS development techniques applied to Glassdoor 
+title: JS Development Techniques Applied to Glassdoor 
 date:   2021-07-10
-description: Using the console to access review information
+description: Using the Console to Access Review Information
 ---
 
 ## Glassdoor

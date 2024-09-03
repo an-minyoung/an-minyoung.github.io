@@ -11,7 +11,8 @@ html, body {
 }
 
 img {
-  max-width: none;
+  max-width: 100%;
+  height: auto;
 }
 
 em img {
@@ -39,20 +40,13 @@ body {
  * Color button
  */
 .color-button {
-    background: $blue-color-dark;
-    border-style: none;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    display: inline-block;
-    padding: 0px 10px;
-    margin: 0px 5px 0 0;
-    cursor: pointer;
+    background: var(--global-theme-color); // Instead of $blue-color-dark
+    color: var(--global-bg-color); // Instead of white
     &:hover {
-        background: $blue-color-light;
+        background: var(--global-hover-color); // Instead of $blue-color-light
     }
 }
+
 
 .wrapper {
     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));

@@ -1,5 +1,5 @@
 ---
-layout: HOME
+layout: about
 permalink: /
 title: Minyoung An
 subtitle: <a href='#'>PhD Candidate, School of Sociology, University of Arizona</a>. /

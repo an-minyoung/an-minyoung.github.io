@@ -1,17 +1,29 @@
 # -----------------------------------------------------------------------------
 # Site settings
-# -----------------------------------------------------------------------------
-name: Alex Hay
-email: alexander.hay@umontreal.ca
+# ---------------------------------------------------f--------------------------
+name: Minyoung An
+email: minyoungan@arizona.edu
 description: > # this means to ignore newlines until "url:"
-  Portfolio for Alex Hay | MS in Robotics
+  Portfolio for Minyoung An | PhD candidate, School of Sociology, University of Arizona
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alexanderhay2020/al-folio-">al-folio*</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-
-url: # the base hostname & protocol for your site
+  
+url: https://an-minyoung.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: Jul, 2021 # leave blank if you don't want to display last updated
+last_updated: Aug, 2024 # leave blank if you don't want to display last updated
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# repo color theme
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+  enabled: true
+  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # Open Graph
@@ -24,7 +36,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: alexanderhay2020 # your GitHub user name
+github_username: # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
@@ -34,55 +46,13 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-phone: 515-229-2192
+phone: #
 
 contact_note: >
-  Email, call, or let's set up a meeting
-  <br>
-  alexander.hay@umontreal.ca
-  <br>
-  (515) 229-2192
+  minyoungan@arizona.edu
+ 
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: etc.blog
-blog_description: side projects and exercises
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-
-# Comments
-disqus_shortname: al-folio* # put your disqus shortname
-
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

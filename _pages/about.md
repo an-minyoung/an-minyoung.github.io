@@ -12,10 +12,7 @@ profile:
     <p>1145 E Campus Drive</p>
     <p>School of Sociology</p>
     <p>University of Arizona, AZ 85721</p>
-  address: >
-    <p>1145 E Campus Drive</p>
-    <p>School of Sociology</p>
-    <p>University of Arizona, AZ 85721</p> 
+  address: 
 news: false
 social: true
 ---

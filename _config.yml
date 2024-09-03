@@ -103,3 +103,17 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.9.0"
 anchorjs_version: "3.2.2"
+
+# -----------------------------------------------------------------------------
+# Navigation bar
+# -----------------------------------------------------------------------------
+nav_item_order: 
+  - home
+  - research
+  - teaching
+  - cv
+
+home_title: HOME
+research_title: RESEARCH
+teaching_title: TEACHING
+cv_title: CV

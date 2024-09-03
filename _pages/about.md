@@ -6,7 +6,7 @@ subtitle: <a href='#'>PhD Candidate, School of Sociology, University of Arizona<
 
 profile:
   align: right
-  image: Profile.jpg
+  image: Profile_resized.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>1145 E Campus Drive</p>

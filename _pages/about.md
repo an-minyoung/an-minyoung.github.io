@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: HOME
 permalink: /
 title: Minyoung An
 subtitle: <a href='#'>PhD Candidate, School of Sociology, University of Arizona</a>. /
@@ -12,7 +12,10 @@ profile:
     <p>1145 E Campus Drive</p>
     <p>School of Sociology</p>
     <p>University of Arizona, AZ 85721</p>
-  address: University of Arizona, Tucson. 
+  address: >
+    <p>1145 E Campus Drive</p>
+    <p>School of Sociology</p>
+    <p>University of Arizona, AZ 85721</p> 
 news: false
 social: true
 ---

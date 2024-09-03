@@ -2,7 +2,11 @@
 layout: page
 title: Research
 permalink: /research/
-description: #A growing collection of your cool projects.
+description: 
+1. How does gender, both as an individual attribute and as an institutional force, shape migration decisions?
+2. How does gender shape career trajectories?
+3. How does gender shape identity formation?
+Future research
 ---
 
 {% for project in site.projects %}

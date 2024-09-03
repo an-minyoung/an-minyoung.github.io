@@ -36,7 +36,7 @@ I've always been fascinated by social structural constraints imposed on individu
 
 ## How does gender shape career trajectories?
 * An, Minyoung, and Erin Leahey. “Pervasive Gender Divides in the Medical Profession: Professional Purity and Research Career.” Article manuscript in progress.
-* 
+  
 * An, Minyoung. “The Impact of Home Country Gender on Women Pursuing Ph.D. in the US.” Article manuscript in progress.
 
 

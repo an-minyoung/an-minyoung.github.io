@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-I've always been fascinated by the social structural constraints imposed on individuals. My research examines these multilevel effects and how they shape individual decisions. Specifically, during my PhD programs, my research focuses on how gender, both as an individual attribute and as an institutional force, shapes decision-making processes, such as migration, career development, and identity formation, and in turn, perpetuate social inequality.
+I've always been fascinated by the social structural constraints imposed on individuals and how they deepen existing inequality. My research examines these multilevel effects and how they shape individual decisions. Specifically, during my PhD programs, my research focuses on how gender, both as an individual attribute and as an institutional force, shapes decision-making processes, such as migration, career development, and identity formation, and in turn, perpetuate social inequality.
 
 ## How does gender shape migration decisions?
 

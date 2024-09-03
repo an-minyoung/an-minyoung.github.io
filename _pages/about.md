@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: Minyoung An
+title: Home
 subtitle: <a href='#'>PhD Candidate, School of Sociology, University of Arizona</a>. /
 
 profile:

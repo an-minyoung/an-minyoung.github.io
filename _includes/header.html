@@ -22,21 +22,23 @@
         </label>
 
       <div class="trigger">
-        <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
+        <!-- Home -->
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">HOME</a>
 
-        <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-
-        <!-- Pages -->
+        <!-- Research -->
+        <a class="page-link" href="{{ '/research/' | prepend: site.baseurl | prepend: site.url }}">RESEARCH</a>
+      
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-
+        
+        <!-- Teaching -->
+        <a class="page-link" href="{{ '/teaching/' | prepend: site.baseurl | prepend: site.url }}">TEACHING</a>
+        
         <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
+        <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a> -->
 
       </div>
     </nav>

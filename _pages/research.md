@@ -73,3 +73,11 @@ I've always been fascinated by social structural constraints imposed on individu
 {% endfor %}
 
 ## Future Research
+
+* How do expressions of gender inequality in social media and online forums correlate with migration intentions, and what can this reveal about the gendered nature of migration decision-making processes?
+  
+  - This project will employ Natural Language Processing techniques, including word embedding models, to analyze large-scale textual data from social media and online forums. The aim is to quantify the semantic distance between expressions of gender inequality and migration intentions, providing new insights into how gendered social contexts shape migration decisions.
+
+* In what ways do gender dynamics influence the academic trajectories, assimilation processes, and contributions of international scholars within local and global academic communities?
+  
+  - This comprehensive, long-term project will examine international scholars' academic trajectories and assimilation processes, with a particular focus on gendered dynamics. The research will investigate scholars' reception in local and international academia, their contributions to productivity and innovation, and patterns of assimilation or marginalization within academic communities.

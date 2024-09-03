@@ -3,15 +3,15 @@
 # ---------------------------------------------------f--------------------------
 name: Minyoung An
 email: minyoungan@arizona.edu
-description: > # this means to ignore newlines until "url:"
-  Portfolio for Minyoung An | PhD candidate, School of Sociology, University of Arizona
+description: Minyoung An | PhD candidate, School of Sociology, University of Arizona # this means to ignore newlines until "url:"
+  
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alexanderhay2020/al-folio-">al-folio*</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   
 url: https://an-minyoung.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: Aug, 2024 # leave blank if you don't want to display last updated
+last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Theme

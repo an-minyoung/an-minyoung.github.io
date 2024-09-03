@@ -4,9 +4,9 @@ title: Research
 permalink: /research/
 ---
 
-My research focuses on how the intersecting forces of gender, as an individual attribute and as an institutional force, shape decision-making processes, such as migration, career development, and identity formation, and in turn, perpetuate social inequality.
+I've always been fascinated by the social structural constraints imposed on individuals. My research examines these multilevel effects and how they shape individual decisions. Specifically, during my PhD programs, my research focuses on how gender, both as an individual attribute and as an institutional force, shapes decision-making processes, such as migration, career development, and identity formation, and in turn, perpetuate social inequality.
 
-## How does gender, both as an individual attribute and as an institutional force, shape migration decisions?
+## How does gender shape migration decisions?
 
 {% for project in site.projects %}
 {% if project.category == "gender-migration" %}
@@ -73,5 +73,3 @@ My research focuses on how the intersecting forces of gender, as an individual a
 {% endfor %}
 
 ## Future Research
-
-[Brief description of your future research directions]

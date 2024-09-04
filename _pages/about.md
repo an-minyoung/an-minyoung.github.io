@@ -17,7 +17,7 @@ news: false
 social: true
 ---
 <br>
-My name is Minyoung An, a PhD candidate in the school of sociology, University of Arizona. 
+My name is Minyoung An, a PhD candidate in the School of Sociology at the University of Arizona. 
 
 My research examines how gender, both as an individual attribute and as an institutional force, shapes decision-making processes and in turn, perpetuates social inequality. I investigate this intersecting multilevel force to explore a spectrum of individual choices—from explicit life path decisions such as migration and educational pursuits, to implicit processes of identity formation, including political partisanship and ideologies. 
 

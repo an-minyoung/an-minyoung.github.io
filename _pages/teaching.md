@@ -1,15 +1,20 @@
 ---
 layout: page
+title: Teaching
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
 nav: true
 nav_order: 6
-calendar: true
 ---
+Teaching Experience (Instructor of Record)
+* The Good Society (Gen Ed)
+* Introduction to Sociology 
+* Gender, Power, Inequality 
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+Teaching Assistant
+* Quantitative Reasoning in Sociology 
+* Reproduction & Society
+* Qualitative Analysis of Health Data 
+* Families & Society 
+* Social Inequality 
+* Suffering and Care in Society
+* Interprofessional Care 

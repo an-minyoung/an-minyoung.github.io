@@ -1,34 +1,23 @@
 ---
 layout: about
-title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+title: Minyoung An
+subtitle: <a href='#'>Postdoctoral Fellow, Stanford University</a>. /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Profile_resized.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+    <p>Encina Hall, 616 Jane Stanford Way</p>
+    <p>Stanford University, CA 94305</p>
+  address: 
+news: false
+social: true
 ---
+<br>
+My name is Minyoung An, a Postdoctoral Fellow at Walter H. Shorenstein Asia-Pacific Research Center, Stanford University. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research examines how gender, both as an individual attribute and as an institutional force, shapes decision-making processes and in turn, perpetuates social inequality. I investigate this intersecting multilevel force to explore a spectrum of individual choices—from explicit life path decisions such as migration and educational pursuits, to implicit processes of identity formation, including political partisanship and ideologies. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+To explore such inquiries, I deploy a wide variety of methods, including quantitative methods, computational methods, and in-depth interviews.

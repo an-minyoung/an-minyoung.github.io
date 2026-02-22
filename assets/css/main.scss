@@ -1,37 +1,39 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-$blue-color-dark: darken(#3E7AD1, 10%);
-$blue-color-light: #4B93DB;
-
 @charset "utf-8";
 
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
 
-@import 'variables';
-@import 'media-queries';
-@import 'basscss';
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
 
-@import 'base';
-@import 'clearfix';
-@import 'positions';
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
 
-@import 'header';
-@import 'footer';
-@import 'pages';
-@import 'posts';
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
 
-@import 'projects';
-@import 'profile';
-@import 'pagination';
-@import 'publications';
-
-@import 'blockquotes';
-@import 'code';
-@import 'gallery';
-@import 'gists';
-@import 'links';
-@import 'measure';
-
-@import 'social-icons';
-@import 'tables';
-@import 'typography';
+// Other specialized styles
+@use "distill";
+@use "cv";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+@use "font-awesome/fontawesome";
+@use "font-awesome/brands";
+@use "font-awesome/solid";
+@use "font-awesome/regular";

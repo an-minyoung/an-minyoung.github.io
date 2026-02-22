@@ -2,6 +2,8 @@ _posts2
 _site
 .sass-cache
 .jekyll-metadata
-.DS_store
+.jekyll-cache/
+.tweet-cache/
+.DS_Store
 .ruby-version
 Gemfile.lock

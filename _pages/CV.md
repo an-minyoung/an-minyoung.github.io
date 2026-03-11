@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /CV/
+permalink: /cv/
 title: CV
 nav: true
-nav_roder: 4
+nav_order: 5
 # description: Materials for courses you taught. Replace this text with your description.
 ---
 # Curriculum Vitae

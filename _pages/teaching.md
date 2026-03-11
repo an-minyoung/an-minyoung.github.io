@@ -2,6 +2,8 @@
 layout: page
 title: Teaching
 permalink: /teaching/
+nav: true
+nav_order: 6
 ---
 Teaching Experience (Instructor of Record)
 * The Good Society (Gen Ed)

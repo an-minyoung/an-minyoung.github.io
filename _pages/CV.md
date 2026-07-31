@@ -4,6 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 6
+editorial_page: true
 # description: Materials for courses you taught. Replace this text with your description.
 ---
 # Curriculum Vitae

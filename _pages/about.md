@@ -2,7 +2,11 @@
 layout: about
 permalink: /
 title: Minyoung An
-subtitle: <a href='#'>Postdoctoral Fellow, Stanford University</a>
+subtitle: Postdoctoral Fellow at Stanford University
+home_editorial: true
+intro: >-
+  I study how gendered institutions shape migration, career trajectories,
+  political identity, and the reproduction of social inequality.
 
 profile:
   align: right
@@ -15,9 +19,6 @@ profile:
 news: false
 social: true
 ---
-<br>
-My name is Minyoung An, a Postdoctoral Fellow at Walter H. Shorenstein Asia-Pacific Research Center, Stanford University. 
-
-My research examines how gender, both as an individual attribute and as an institutional force, shapes decision-making processes and in turn, perpetuates social inequality. I investigate this intersecting multilevel force to explore a spectrum of individual choices—from explicit life path decisions such as migration and educational pursuits, to implicit processes of identity formation, including political partisanship and ideologies. 
+My research examines how gender, both as an individual attribute and as an institutional force, shapes decision-making processes and, in turn, perpetuates social inequality. I investigate this intersecting multilevel force across a spectrum of individual choices—from explicit life-path decisions such as migration and educational pursuits to implicit processes of identity formation, including political partisanship and ideologies.
 
 To explore such inquiries, I deploy a wide variety of methods, including quantitative methods, computational methods, and in-depth interviews.

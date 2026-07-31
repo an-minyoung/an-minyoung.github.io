@@ -39,6 +39,15 @@
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
 
+{% if page.research_editorial %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap"
+  >
+{% endif %}
+
 <!-- Code Syntax Highlighting -->
 <link
   defer

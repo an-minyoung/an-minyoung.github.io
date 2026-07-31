@@ -162,11 +162,11 @@ ninja.data = [{
           window.open("mailto:%6D%69%6E%79%61%6E%31@%73%74%61%6E%66%6F%72%64.%65%64%75", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/an-minyoung", "_blank");
+          window.open("https://orcid.org/0000-0002-5891-023X", "_blank");
         },
       },{
         id: 'social-rss',

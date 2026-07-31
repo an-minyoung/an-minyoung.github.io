@@ -32,8 +32,8 @@
 .home-copy {
   h1 {
     margin: 0;
-    font-size: clamp(2.8rem, 7vw, 4.5rem);
-    line-height: 0.98;
+    font-size: clamp(2.25rem, 5vw, 3.25rem);
+    line-height: 1.05;
     letter-spacing: -0.035em;
   }
 }
@@ -168,7 +168,7 @@
 
   .home-copy {
     h1 {
-      font-size: clamp(2.65rem, 15vw, 3.8rem);
+      font-size: clamp(2.15rem, 10vw, 2.8rem);
     }
   }
 

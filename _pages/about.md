@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: Minyoung An
-subtitle: <a href='#'>Postdoctoral Fellow, Stanford University</a>. /
+subtitle: <a href='#'>Postdoctoral Fellow, Stanford University</a>
 
 profile:
   align: right

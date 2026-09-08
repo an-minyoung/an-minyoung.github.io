@@ -9,4 +9,4 @@ editorial_page: true
 ---
 # Curriculum Vitae
 
-You can view my full CV here: [My CV (PDF)](/assets/pdf/CV.pdf?v=2026-04-09)
+You can view my full CV here: [My CV (PDF)](/assets/pdf/CV.pdf?v=2026-09-07)

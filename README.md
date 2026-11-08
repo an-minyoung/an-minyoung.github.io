@@ -35,10 +35,10 @@ JEKYLL_ENV=production bundle exec jekyll build
 bundle exec jekyll serve --port 8080
 ```
 
-The local preview runs at http://127.0.0.1:8080/. Check the homepage, research, CV, teaching, mobile layout, theme switch, and video before deployment. Pull requests run the existing build without publishing; pushes to `master` publish automatically.
+The local preview runs at http://127.0.0.1:8080/. Check the homepage, research, CV, teaching, mobile layout, light appearance, and video before deployment. Pull requests run the existing build without publishing; pushes to `master` publish automatically.
 
 Unused theme examples remain in the repository for reference but are explicitly excluded from the generated site. Do not remove those exclusions without reviewing the content. The template’s general setup guides are retained in `INSTALL.md`, `CUSTOMIZE.md`, and `TROUBLESHOOTING.md`.
 
 ## Credits
 
-Built on the MIT-licensed al-folio theme and Jekyll. See `LICENSE` for the theme license. Research citations link to their publishers; the seminar video is hosted by Stanford APARC on YouTube.
+Built on the MIT-licensed al-folio theme and Jekyll. See `LICENSE` for the theme license. Research citations link to their publishers; the seminar video is hosted by Stanford APARC on YouTube. The small Stanford wordmark in the research section comes from the [official Stanford Identity Guide](https://identity.stanford.edu/visual-identity/stanford-logos/wordmarks/) and identifies the existing Stanford research affiliation.

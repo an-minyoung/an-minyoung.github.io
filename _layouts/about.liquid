@@ -18,9 +18,17 @@ layout: default
         <p class="home-intro">{{ page.intro }}</p>
 
         <nav class="home-actions" aria-label="Primary profile links">
-          <a href="{{ '/research/' | relative_url }}">Research <span aria-hidden="true">&rarr;</span></a>
-          <a href="{{ '/cv/' | relative_url }}">CV <span aria-hidden="true">&rarr;</span></a>
-          <a href="mailto:{{ site.data.socials.email }}">Email <span aria-hidden="true">&rarr;</span></a>
+          <a href="{{ '/research/' | relative_url }}"
+            ><i class="fa-solid fa-chart-line fa-fw" aria-hidden="true"></i>Research
+            <span aria-hidden="true">&rarr;</span></a
+          >
+          <a href="{{ '/cv/' | relative_url }}"
+            ><i class="fa-solid fa-file-lines fa-fw" aria-hidden="true"></i>CV <span aria-hidden="true">&rarr;</span></a
+          >
+          <a href="mailto:{{ site.data.socials.email }}"
+            ><i class="fa-solid fa-envelope fa-fw" aria-hidden="true"></i>Email
+            <span aria-hidden="true">&rarr;</span></a
+          >
         </nav>
       </div>
 

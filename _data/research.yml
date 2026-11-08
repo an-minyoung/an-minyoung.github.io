@@ -1,0 +1,37 @@
+- id: migration
+  name: Migration
+  question: How does gender shape the decision to migrate or return?
+  summary: I examine how inequality in origin and destination countries shapes global talent flows, educational selectivity, and the return migration of highly trained workers.
+  papers:
+    - title: "Exodus From Gender Inequality? Gender Differences in Educational Selectivity among Korean Immigrants in the US"
+      status: Under review
+      award: Raymond V. Bowers Award for Outstanding Graduate Student Paper, 2023
+    - title: "Gendered Brain Circulation: The Return Migration of US-Trained PhDs from South Korea"
+      collaborators: Gi-Wook Shin
+      status: Manuscript available
+    - title: "Gender Gap in Foreign US Ph.D. Holders: Does Gender Inequality Affect Return Decisions?"
+      status: Manuscript available
+    - title: "Bridging Knowledge, Bonded Identity: Transnational Brokerage of Korean Migrant Talent"
+      authors: Ruo-Fan Liu, Minyoung An, and Gi-Wook Shin
+      status: Under review
+- id: careers
+  name: Career trajectories
+  question: How do gendered institutions structure professional opportunity?
+  summary: My work connects institutional contexts to educational and occupational pathways, including research careers in medicine and women's pursuit of doctoral education.
+  papers:
+    - title: "Pervasive Gender Divides in the Medical Profession: Professional Purity and Research Career"
+      collaborators: Erin Leahey
+      status: Manuscript available
+    - title: "The Impact of Home Country Gender on Women Pursuing Ph.D. in the US"
+      status: Manuscript available
+- id: identity
+  name: Identity formation
+  question: How do inequality and social experience shape political identities?
+  summary: I study the relationship between institutional inequality, gender, and political meaning-making, from conservative gun sellers in the United States to perceptions of healthcare and housing.
+  papers:
+    - title: "The Influence of Medical Inequality Perceptions on the Political Identity of U.S. Hispanic-Latinos"
+      collaborators: Dylan Simburger and Daniel Martínez
+      status: In progress
+    - title: "Housing, Mortgage Attitudes, and Ideologies in Ukraine"
+      authors: Jane Zavisca and Minyoung An
+      status: In progress

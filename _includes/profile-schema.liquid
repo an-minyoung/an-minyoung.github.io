@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": {{ '/' | absolute_url | append: '#person' | jsonify }},
+    "name": "Minyoung An",
+    "url": {{ '/' | absolute_url | jsonify }},
+    "image": {{ '/assets/img/Profile_resized.jpg' | absolute_url | jsonify }},
+    "jobTitle": "Postdoctoral Fellow",
+    "affiliation": {"@type": "Organization", "name": "Stanford University"},
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "University of Arizona"},
+      {"@type": "CollegeOrUniversity", "name": "Ewha Womans University"}
+    ],
+    "sameAs": [
+      "https://aparc.fsi.stanford.edu/people/minyoung",
+      "https://www.linkedin.com/in/minyoung-an-95234b153/",
+      "https://github.com/an-minyoung",
+      "https://orcid.org/0000-0002-5891-023X",
+      "https://scholar.google.com/citations?user=nZ0jvbwAAAAJ"
+    ]
+  }
+</script>

@@ -12,9 +12,9 @@ description: My teaching at the University of Arizona spans introductory sociolo
 
 School of Sociology, University of Arizona
 
-- **The Good Society (Gen Ed)**
-- **Introduction to Sociology** — two semesters
-- **Gender, Power, Inequality**
+- **[SOC 150C2 — The Good Society (Gen Ed)](https://catalog.arizona.edu/courses/0359911)**
+- **[SOC 101 — Introduction to Sociology](https://sociology.arizona.edu/course/soc-101-introduction-sociology)**
+- **[SOC 150B2 — Gender, Power, and Inequality](https://catalog.arizona.edu/courses/0359961)**
 
 ## Teaching assistant
 

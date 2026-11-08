@@ -13,7 +13,6 @@ _styles: |
 ---
 
 <div class="research-editorial">
-  <p class="research-kicker">Research agenda · Gender, institutions, inequality</p>
   <h1>How institutions shape consequential choices</h1>
   <p class="research-intro">I study how gender and institutional inequality shape migration, professional opportunity, and political identity. My research brings together population and survey data, computational methods, and interviews to connect individual decisions with the social contexts in which they are made.</p>
 

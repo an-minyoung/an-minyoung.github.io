@@ -5,21 +5,31 @@ permalink: /teaching/
 nav: true
 nav_order: 5
 editorial_page: true
+description: Minyoung An’s teaching experience at the University of Arizona, including instructor-of-record courses, teaching assistant work across seven courses, and sociology tutoring.
 ---
-## Teaching Experience
 
-_Instructor of Record_
+My teaching at the University of Arizona spans introductory sociology, general education, gender and inequality, research methods, and the sociology of health and care.
 
-* The Good Society (Gen Ed)
-* Introduction to Sociology 
-* Gender, Power, Inequality 
+## Instructor of record
 
-## Teaching Assistant
+School of Sociology, University of Arizona
 
-* Quantitative Reasoning in Sociology 
-* Reproduction & Society
-* Qualitative Analysis of Health Data 
-* Families & Society 
-* Social Inequality 
-* Suffering and Care in Society
-* Interprofessional Care 
+- **The Good Society (Gen Ed)**
+- **Introduction to Sociology** — two semesters
+- **Gender, Power, Inequality**
+
+## Teaching assistant
+
+I supported teaching across seven courses in the School of Sociology at the University of Arizona:
+
+- Quantitative Reasoning in Sociology
+- Reproduction & Society
+- Qualitative Analysis of Health Data
+- Families & Society
+- Social Inequality
+- Suffering and Care in Society
+- Interprofessional Care
+
+## Tutoring
+
+Sociology Tutor, School of Sociology, University of Arizona · Spring 2021.

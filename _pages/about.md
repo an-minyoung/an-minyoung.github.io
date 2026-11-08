@@ -25,3 +25,7 @@ social: true
 I am a sociologist and postdoctoral fellow at Stanford’s [Shorenstein Asia-Pacific Research Center](https://aparc.fsi.stanford.edu/people/minyoung). My work asks how social environments shape consequential decisions: where people move, which careers they pursue, and how they understand their place in society.
 
 I combine large-scale population and survey data with computational methods and in-depth interviews. My current research examines skilled migration, the return decisions of U.S.-trained PhDs, and gendered career pathways. I received my PhD in Sociology from the University of Arizona in 2025, where I also earned a Certificate in Computational Social Science.
+
+I use **SQL, R, Python, and Stata** for quantitative and computational social science research.
+
+At the University of Arizona, I taught _The Good Society (Gen Ed)_; _Introduction to Sociology_ (two semesters); and _Gender, Power, Inequality_ as instructor of record. I also served as a teaching assistant across seven courses, including quantitative reasoning, qualitative health-data analysis, and courses on families, inequality, reproduction, and care. [Teaching experience]({{ '/teaching/' | relative_url }})

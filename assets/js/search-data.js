@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Minyoung An’s teaching experience at the University of Arizona, including instructor-of-record courses, teaching assistant work across seven courses, and sociology tutoring.",
+          description: "My teaching at the University of Arizona spans introductory sociology, general education, gender and inequality, research methods, and the sociology of health and care, through instructor-of-record roles, teaching assistant work across seven courses, and sociology tutoring.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";

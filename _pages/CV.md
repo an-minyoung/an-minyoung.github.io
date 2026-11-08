@@ -11,11 +11,11 @@ description: Minyoung An’s professional and academic experience, research, tea
 <div class="cv-download">
   <a class="cv-download-link" href="{{ '/assets/pdf/CV.pdf?v=2026-09-07' | relative_url }}">
     <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
-    <span>Download my academic CV <span class="cv-download-details">(PDF · 4 pages)</span></span>
+    <span>Download my academic CV</span>
   </a>
   <a class="cv-download-link" href="{{ '/assets/pdf/professional-resume.pdf' | relative_url }}">
     <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
-    <span>Download my professional resume <span class="cv-download-details">(PDF · 2 pages)</span></span>
+    <span>Download my professional resume</span>
   </a>
 </div>
 

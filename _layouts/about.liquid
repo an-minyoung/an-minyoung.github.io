@@ -7,7 +7,9 @@ layout: default
       <div class="home-copy">
         <h1>
           {% if site.title == 'blank' %}
-            {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
           {% else %}
             {{ site.title }}
           {% endif %}
@@ -48,10 +50,42 @@ layout: default
       <div class="home-about-copy">{{ content }}</div>
     </section>
 
-    {% if page.social %}
-      <div class="social home-social">
-        <div class="contact-icons">{% social_links %}</div>
+    <section class="home-methods" aria-labelledby="methods-heading">
+      <h2 id="methods-heading" class="home-kicker">Methods &amp; tools</h2>
+      <p>Quantitative analysis · Computational social science · In-depth interviews</p>
+      <p class="home-tools">Python · R · SQL · Stata</p>
+    </section>
+
+    {% if page.featured_talk %}
+      {% include featured-talk.liquid %}
+      <script defer src="{{ '/assets/js/featured-talk.js' | relative_url | bust_file_cache }}"></script>
+    {% endif %}
+
+    <section class="home-current" aria-labelledby="current-heading">
+      <div>
+        <p class="home-kicker">Current research</p>
+        <h2 id="current-heading">People, pathways, and institutions</h2>
       </div>
+      <div class="home-research-links">
+        {% for theme in site.data.research %}
+          <a href="{{ '/research/' | relative_url }}#{{ theme.id }}"
+            ><span>{{ theme.name }}</span><span aria-hidden="true">&rarr;</span></a
+          >
+        {% endfor %}
+        <a href="{{ '/research/' | relative_url }}#publications"
+          ><span>Publications &amp; policy reports</span><span aria-hidden="true">&rarr;</span></a
+        >
+      </div>
+    </section>
+
+    {% if page.social %}
+      <nav class="home-profile-links" aria-label="Find Minyoung online">
+        <a href="https://aparc.fsi.stanford.edu/people/minyoung">Stanford profile</a>
+        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+        <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
+        <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/">LinkedIn</a>
+        <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+      </nav>
     {% endif %}
 
     {% if page.announcements and page.announcements.enabled %}

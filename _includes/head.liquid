@@ -83,7 +83,8 @@
 {% elsif site.icon != blank %}
   <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 {% endif %}
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
+<!-- Refresh compiled styles on each build; this site keeps its Sass in _sass/. -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 {% if site.enable_darkmode %}
@@ -202,7 +203,12 @@
 {% endif %}
 
 {% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="{{ '/assets/css/tikzjax.min.css' | relative_url | bust_file_cache }}">
+  <link
+    defer
+    rel="stylesheet"
+    type="text/css"
+    href="{{ '/assets/css/tikzjax.min.css' | relative_url | bust_file_cache }}"
+  >
 {% endif %}
 
 {% if site.enable_cookie_consent %}

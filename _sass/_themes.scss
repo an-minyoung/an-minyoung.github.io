@@ -9,7 +9,7 @@
   --global-bg-color: #{v.$white-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
+  --global-text-color-light: #626b73;
   --global-theme-color: #{v.$navy-color};
   --global-hover-color: #{v.$navy-color-dark};
   --global-hover-text-color: #{v.$white-color};
@@ -79,7 +79,7 @@ html[data-theme="dark"] {
   --global-bg-color: #{v.$grey-color-dark};
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
+  --global-text-color-light: #adb5bd;
   --global-theme-color: #{v.$navy-color-light};
   --global-hover-color: #{v.$navy-color-light};
   --global-hover-text-color: #{v.$white-color};
@@ -194,7 +194,12 @@ html[data-theme-setting="light"] {
 .fa-half-sun-moon::after {
   content: "\f185";
   color: var(--global-text-color);
-  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
+  clip-path: polygon(
+    calc(50% + 0.5px) 0,
+    100% 0,
+    100% 100%,
+    calc(50% + 0.5px) 100%
+  );
   right: -1.5px; /* slight overflow to avoid right-edge clipping */
   transform: translateX(-1px); /* visually re-center the sun half */
 }

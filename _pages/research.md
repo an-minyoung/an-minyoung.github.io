@@ -5,6 +5,7 @@ permalink: /research/
 nav: true
 nav_order: 4
 research_editorial: true
+description: Research by Minyoung An on gender, skilled migration, career trajectories, political identity, and social policy. Publications, working papers, and current projects.
 _styles: |
   .post-header {
     display: none;
@@ -14,109 +15,86 @@ _styles: |
 <div class="research-editorial">
   <p class="research-kicker">Research agenda · Gender, institutions, inequality</p>
   <h1>How institutions shape consequential choices</h1>
-  <p class="research-intro">
-    I have always been fascinated by the social structural constraints imposed on individuals and how they deepen existing inequality. My research examines these multilevel effects and how they shape individual decisions. During my PhD, I focused on how gender—both as an individual attribute and as an institutional force—shapes migration, career development, and identity formation, and in turn perpetuates social inequality.
-  </p>
+  <p class="research-intro">I study how gender and institutional inequality shape migration, professional opportunity, and political identity. My research brings together population and survey data, computational methods, and interviews to connect individual decisions with the social contexts in which they are made.</p>
 
-  <section class="research-theme">
-    <div class="research-index" aria-hidden="true">01</div>
-    <div class="research-theme-content">
-      <h2>Migration</h2>
-      <p class="research-question">How does gender shape the decision to migrate or return?</p>
+  <nav class="research-jump-links" aria-label="Research sections">
+    <a href="#migration">Migration</a>
+    <a href="#careers">Careers</a>
+    <a href="#identity">Identity</a>
+    <a href="#publications">Publications</a>
+    <a href="#policy">Policy reports</a>
+    <a href="#new-projects">New projects</a>
+  </nav>
 
-      <article class="research-paper">
-        <div>
-          <h3>Exodus From Gender Inequality? Gender Differences in Educational Selectivity among Korean Immigrants in the US</h3>
-          <p class="research-award">
-            <i class="fa-solid fa-award" aria-hidden="true"></i>
-            Raymond V. Bowers Award for Outstanding Graduate Student Paper
-          </p>
-        </div>
-        <span class="research-status">Manuscript available</span>
+{% for theme in site.data.research %}
+
+<section class="research-theme" id="{{ theme.id }}" aria-labelledby="{{ theme.id }}-heading">
+<div class="research-index" aria-hidden="true">0{{ forloop.index }}</div>
+<div class="research-theme-content">
+<h2 id="{{ theme.id }}-heading">{{ theme.name }}</h2>
+<p class="research-question">{{ theme.question }}</p>
+<p>{{ theme.summary }}</p>
+{% for paper in theme.papers %}
+<article class="research-paper">
+<div>
+<h3>{{ paper.title }}</h3>
+{% if paper.collaborators %}<p class="research-meta">With {{ paper.collaborators }}</p>{% endif %}
+{% if paper.authors %}<p class="research-meta">{{ paper.authors }}</p>{% endif %}
+{% if paper.award %}<p class="research-award"><i class="fa-solid fa-award" aria-hidden="true"></i> {{ paper.award }}</p>{% endif %}
+</div>
+<span class="research-status">{{ paper.status }}</span>
+</article>
+{% endfor %}
+</div>
+</section>
+{% endfor %}
+
+  <section class="research-section" id="publications" aria-labelledby="publications-heading">
+    <p class="research-kicker">Peer-reviewed work</p>
+    <h2 id="publications-heading">Publications</h2>
+    {% for paper in site.data.publications %}
+      <article class="publication-entry">
+        <p class="research-meta">{{ paper.authors }} · {{ paper.year }}</p>
+        <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+        <p><em>{{ paper.journal }}</em> {{ paper.citation }}.</p>
+        <p class="research-meta">{{ paper.note }} <a href="{{ paper.url }}">DOI: {{ paper.doi }}</a> · <a href="{{ paper.record_url }}">Article record</a></p>
       </article>
-
-      <article class="research-paper">
-        <div>
-          <h3>Gender Gap in Foreign US Ph.D. Holders: Does Gender Inequality Affect Return Decisions?</h3>
-        </div>
-        <span class="research-status">In progress</span>
-      </article>
-    </div>
+    {% endfor %}
   </section>
 
-  <section class="research-theme">
-    <div class="research-index" aria-hidden="true">02</div>
-    <div class="research-theme-content">
-      <h2>Career Trajectories</h2>
-      <p class="research-question">How do gendered institutions structure professional opportunity?</p>
-
-      <article class="research-paper">
-        <div>
-          <h3>Pervasive Gender Divides in the Medical Profession: Professional Purity and Research Career</h3>
-          <p class="research-meta">With Erin Leahey</p>
-        </div>
-        <span class="research-status">In progress</span>
+  <section class="research-section" id="policy" aria-labelledby="policy-heading">
+    <p class="research-kicker">Applied research</p>
+    <h2 id="policy-heading">Policy reports</h2>
+    <p>I contributed to research on social expenditure, charitable giving, welfare finance, and social capital at the Korea Institute for Health and Social Affairs (2017–2018). These collaborative technical reports are in Korean; English headings use official titles or descriptive translations.</p>
+    {% for report in site.data.policy_reports %}
+      <article class="publication-entry">
+        <p class="research-meta">{{ report.year }} · {{ report.institution }}</p>
+        <h3>{% if report.url %}<a href="{{ report.url }}">{{ report.title }}</a>{% else %}{{ report.title }}{% endif %}</h3>
+        <p class="research-meta" lang="ko">{{ report.korean_title }}</p>
+        {% if report.authors %}<p class="research-meta" lang="ko">{{ report.authors }}</p>{% endif %}
+        <p class="research-meta"><a href="{{ report.url }}">Official report record</a>{% if report.pdf_url %} · <a href="{{ report.pdf_url }}">{{ report.pdf_label }}</a>{% endif %}</p>
       </article>
-
-      <article class="research-paper">
-        <div>
-          <h3>The Impact of Home Country Gender on Women Pursuing Ph.D. in the US</h3>
-        </div>
-        <span class="research-status">In progress</span>
-      </article>
-    </div>
+    {% endfor %}
   </section>
 
-  <section class="research-theme">
-    <div class="research-index" aria-hidden="true">03</div>
-    <div class="research-theme-content">
-      <h2>Identity Formation</h2>
-      <p class="research-question">How do gender and inequality shape political and social identities?</p>
-
-      <article class="research-paper">
-        <div>
-          <h3>
-            <a href="https://doi.org/10.1093/socpro/spac046">
-              Politics at the Gun Counter: Examining Partisanship and Masculinity among Conservative Gun Sellers During the 2020 Gun Purchasing Surge
-            </a>
-          </h3>
-          <p class="research-meta">With Jennifer Carlson · <em>Social Problems</em></p>
-        </div>
-        <span class="research-status">Published</span>
-      </article>
-
-      <article class="research-paper">
-        <div>
-          <h3>The Influence of Medical Inequality Perceptions on the Political Identity of U.S. Hispanic-Latinos</h3>
-          <p class="research-meta">With Dylan Simburger and Daniel Martínez</p>
-        </div>
-        <span class="research-status">In progress</span>
-      </article>
+  <section class="research-future" id="new-projects" aria-labelledby="new-projects-heading">
+    <div class="research-future-header">
+      <div>
+        <p class="research-kicker">Developing at Stanford</p>
+        <h2 id="new-projects-heading">New directions</h2>
+      </div>
+      <a class="research-affiliation" href="https://aparc.fsi.stanford.edu/people/minyoung" aria-label="Minyoung An’s Stanford profile">
+        <img src="{{ '/assets/img/stanford-wordmark.png' | relative_url }}" alt="Stanford" width="426" height="91" loading="lazy">
+      </a>
     </div>
-  </section>
-
-  <section class="research-future">
-    <p class="research-kicker">Future directions</p>
-    <h2>Extending the research agenda</h2>
-
     <article class="research-future-item">
       <h3>Gender inequality, online discourse, and migration intentions</h3>
-      <p>
-        How do expressions of gender inequality in social media and online forums correlate with migration intentions, and what can this reveal about the gendered nature of migration decision-making processes?
-      </p>
-      <p class="research-meta">
-        This project will employ Natural Language Processing techniques, including word embedding models, to analyze large-scale textual data from social media and online forums. The aim is to quantify the semantic distance between expressions of gender inequality and migration intentions, providing new insights into how gendered social contexts shape migration decisions.
-      </p>
+      <p>How do discussions of gender inequality in social media and online forums relate to migration intentions? This developing project explores computational approaches to studying the connection between public discourse and migration decisions.</p>
     </article>
-
     <article class="research-future-item">
       <h3>International scholars and gendered academic trajectories</h3>
-      <p>
-        In what ways do gender dynamics influence the academic trajectories, assimilation processes, and contributions of international scholars within local and global academic communities?
-      </p>
-      <p class="research-meta">
-        This comprehensive, long-term project will examine international scholars' academic trajectories and assimilation processes, with a particular focus on gendered dynamics. The research will investigate scholars' reception in local and international academia, their contributions to productivity and innovation, and patterns of assimilation or marginalization within academic communities.
-      </p>
+      <p>This project examines the career pathways and experiences of international scholars from East Asia, focusing on gender, professional opportunity, and connections across national academic communities.</p>
     </article>
+    <p class="research-meta">Read more about this agenda on my <a href="https://aparc.fsi.stanford.edu/people/minyoung">Stanford profile</a>.</p>
   </section>
 </div>

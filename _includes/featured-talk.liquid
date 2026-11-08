@@ -1,0 +1,35 @@
+{% assign talk = site.data.featured_talk %}
+<section class="home-talk" id="talk" aria-labelledby="talk-heading">
+  <div class="talk-copy">
+    <p class="home-kicker">Featured talk · {{ talk.date }}</p>
+    <h2 id="talk-heading">{{ talk.title }}</h2>
+    <p class="talk-host">{{ talk.host }}</p>
+    <p>{{ talk.description }}</p>
+    <div class="talk-links">
+      <a href="{{ talk.event_url }}">Seminar details</a>
+      <a href="{{ talk.coverage_url }}">Read Stanford’s coverage</a>
+    </div>
+  </div>
+  <figure class="talk-figure">
+    <div class="talk-player" data-video-id="{{ talk.video_id }}" data-video-title="{{ talk.title | escape }}">
+      <a
+        class="talk-poster"
+        href="https://www.youtube.com/watch?v={{ talk.video_id }}"
+        aria-label="Watch {{ talk.title | escape }}"
+      >
+        <img
+          src="https://i.ytimg.com/vi/{{ talk.video_id }}/hqdefault.jpg"
+          alt="Video thumbnail for Minyoung An’s Stanford seminar, Why Women Leave"
+          width="480"
+          height="360"
+          loading="lazy"
+        >
+        <span class="talk-play"><span aria-hidden="true">▶</span> Watch the talk</span>
+      </a>
+    </div>
+    <figcaption>
+      Minyoung An · Video: Stanford APARC ·
+      <a href="https://www.youtube.com/watch?v={{ talk.video_id }}">Watch on YouTube</a>
+    </figcaption>
+  </figure>
+</section>

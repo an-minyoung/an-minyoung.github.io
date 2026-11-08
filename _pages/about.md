@@ -3,10 +3,12 @@ layout: about
 permalink: /
 title: Minyoung An
 subtitle: Postdoctoral Fellow at Stanford University
+description: Sociologist at Stanford studying gender, global talent migration, career trajectories, and inequality through quantitative, computational, and qualitative research.
 home_editorial: true
+featured_talk: true
 intro: >-
-  I study how gendered institutions shape migration, career trajectories,
-  political identity, and the reproduction of social inequality.
+  I study how gender and institutions shape migration, careers,
+  and the choices that reproduce social inequality.
 
 profile:
   align: right
@@ -15,10 +17,15 @@ profile:
   more_info: >
     <p>Encina Hall, 616 Jane Stanford Way</p>
     <p>Stanford University, CA 94305</p>
-  address: 
+  address:
 news: false
 social: true
 ---
-My research examines how gender, both as an individual attribute and as an institutional force, shapes decision-making processes and, in turn, perpetuates social inequality. I investigate this intersecting multilevel force across a spectrum of individual choices—from explicit life-path decisions such as migration and educational pursuits to implicit processes of identity formation, including political partisanship and ideologies.
 
-To explore such inquiries, I deploy a wide variety of methods, including quantitative methods, computational methods, and in-depth interviews.
+I am a sociologist and postdoctoral fellow at Stanford’s [Shorenstein Asia-Pacific Research Center](https://aparc.fsi.stanford.edu/people/minyoung). My work asks how social environments shape consequential decisions: where people move, which careers they pursue, and how they understand their place in society.
+
+I combine large-scale population and survey data with computational methods and in-depth interviews. My current research examines skilled migration, the return decisions of U.S.-trained PhDs, and gendered career pathways. I received my PhD in Sociology from the University of Arizona in 2025, where I also earned a Certificate in Computational Social Science.
+
+I use **SQL, R, Python, and Stata** for quantitative and computational social science research.
+
+At the University of Arizona, I taught _The Good Society (Gen Ed)_; _Introduction to Sociology_ (two semesters); and _Gender, Power, Inequality_ as instructor of record. I also served as a teaching assistant across seven courses, including quantitative reasoning, qualitative health-data analysis, and courses on families, inequality, reproduction, and care. [Teaching experience]({{ '/teaching/' | relative_url }})

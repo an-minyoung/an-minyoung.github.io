@@ -42,7 +42,6 @@ _styles: |
 {% if paper.authors %}<p class="research-meta">{{ paper.authors }}</p>{% endif %}
 {% if paper.award %}<p class="research-award"><i class="fa-solid fa-award" aria-hidden="true"></i> {{ paper.award }}</p>{% endif %}
 </div>
-<span class="research-status">{{ paper.status }}</span>
 </article>
 {% endfor %}
 </div>

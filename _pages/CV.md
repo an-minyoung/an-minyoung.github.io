@@ -13,6 +13,10 @@ description: Minyoung An’s professional and academic experience, research, tea
     <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
     <span>Download my academic CV <span class="cv-download-details">(PDF · 4 pages)</span></span>
   </a>
+  <a class="cv-download-link" href="{{ '/assets/pdf/professional-resume.pdf' | relative_url }}">
+    <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+    <span>Download my professional resume <span class="cv-download-details">(PDF · 2 pages)</span></span>
+  </a>
 </div>
 
 <nav class="research-jump-links" aria-label="CV sections">
@@ -104,7 +108,7 @@ I served as a **Sociology Tutor** in the School of Sociology, University of Ariz
 
 ## Publications and working papers
 
-My research page includes **three journal articles, five policy reports, and eight working papers**, with publication records, available full-text links, and manuscript status labels.
+My research page includes **three journal articles, five policy reports, and eight working papers**, with publication records and available full-text links.
 
 [Explore publications, working papers, and policy reports]({{ '/research/' | relative_url }})
 
@@ -122,9 +126,6 @@ My research page includes **three journal articles, five policy reports, and eig
 
 ## Conference and research presentations
 
-<details markdown="1">
-<summary>View 12 conference and research entries, 2013–2026</summary>
-
 - **2026 · Accepted paper.** With Gi-Wook Shin, “Bridging Knowledge, Bonded Identity: Transnational Brokerage of Korean Migrant Talent.” “Return Migration in the Era of Enforcement: Uncertainty and Transnational Lives,” American Sociological Association Annual Meeting, New York, NY. Accepted status is retained from the 2026 CV.
 - **2024 · Paper presentation.** With Erin Leahey, “Pervasive Gender Divides in the Medical Profession.” Section on Organizations, Occupations, and Work Refereed Roundtables, American Sociological Association Annual Meeting, Montreal, Canada.
 - **2024 · Poster presentation.** With Erin Leahey, “Pervasive Gender Divides in the Medical Profession.” SBSRI Grant Awardees Research Showcase, University of Arizona, Tucson, AZ.
@@ -137,5 +138,3 @@ My research page includes **three journal articles, five policy reports, and eig
 - **2019 · Conference presentation.** “Class Differences for Women in Attaining Work-Family Balance and Consciousness of Government Responsibility for Child Care: Focusing on the Korean Case.” “Race, Class and Gender: Families,” Pacific Sociological Association Annual Meeting, Berkeley, CA.
 - **2014 · Paper presentation, in Korean.** “Class Differences in Work-Family Reconciliation Difficulties and in Perception on Social Rights: Focusing on Women.” Korean Sociological Association Annual Conference.
 - **2013 · Paper presentation, in Korean.** “The Blind Spot of the Permanent Labor Contract: Focusing on the Official School Workers.” Korean Critical Sociology Association Annual Conference.
-
-</details>

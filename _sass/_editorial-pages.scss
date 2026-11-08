@@ -70,3 +70,64 @@
     }
   }
 }
+
+:where(a, button, iframe):focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+.skip-link {
+  position: fixed;
+  top: -6rem;
+  left: 1rem;
+  z-index: 1100;
+  padding: 0.75rem 1rem;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 2px solid var(--global-theme-color);
+  &:focus {
+    top: 0.5rem;
+  }
+}
+
+.cv-download {
+  display: flex;
+  justify-content: center;
+  margin: 1.75rem 0 2.75rem;
+}
+
+.cv-download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  max-width: 100%;
+  padding: 1rem 1.4rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.35rem;
+  background: var(--global-theme-color);
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.45;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--global-hover-color);
+    background: var(--global-hover-color);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  span {
+    color: inherit;
+  }
+
+  i {
+    flex: 0 0 auto;
+    font-size: 1.45rem;
+  }
+}
+
+.cv-download-details {
+  display: inline-block;
+  font-weight: 400;
+}
